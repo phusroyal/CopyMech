@@ -57,7 +57,7 @@ def text_swap(text, text1 = 'is', text2 = 'are'):
     elif first_text2 == -1:
         return corrupted_text, text[:first_text1], text1
     
-    return corrupted_text, text[:min(first_text1, first_text2)]
+    return None
 
 def text_drop(text, drop = 'a', replace = ''):
     """Given a text, drop ' a ' by ''. 
@@ -190,80 +190,56 @@ def corrupt_and_compare_tokens(orig_tokens, target_token, method: str = None):
     # The next ground-truth token from the original (if available).
     ground_truth_next = orig_tokens[mismatch_index] if mismatch_index < len(orig_tokens) else None
     
-    return decoded_up_to, corrupted_sentence, ground_truth_next
+    return corrupted_sentence, decoded_up_to, ground_truth_next
 
-def swap_is_are(text):
-    source, target = 'is', 'are'
+class Scheme():
+    def __init__(self, source='', target=''):
+        self.source = source
+        self.target = target
+    
+    def swap_words(self, text):
+        if not template_searcher(seq= text,
+                        num_context= 26,
+                        num_post_word= 22,
+                        source= self.source,
+                        target= self.target):
+            return None
+        
+        outputs = text_swap(text= text,
+                        text1= self.source,
+                        text2= self.target)
+        return outputs, (self.source, self.target)
 
-    if not template_searcher(seq= text,
+    def drop_words(self, text):
+        if not template_searcher(seq= text,
                       num_context= 26,
                       num_post_word= 22,
-                      source= source,
-                      target= target):
-        return None
-    
-    return text_swap(text= text,
-                     text1= source,
-                     text2= target)
+                      source= self.source,
+                        target= self.target):
+            return None
 
-def swap_was_were(text):
-    source, target = 'was', 'were'
+        outputs = text_drop(text= text,
+                            drop= self.source,
+                            replace= self.target)
+        return outputs, (self.source, self.target)
+        
+    def char_edit(text, model, needed_len = 47, target_id = 26):
+        # tokenize the token
+        tokens = model.to_tokens(text, prepend_bos = False)
+        if len(tokens[0]) < needed_len:
+            return None
 
-    if not template_searcher(seq= text,
-                      num_context= 26,
-                      num_post_word= 22,
-                      source= source,
-                      target= target):
-        return None
-    
-    return text_swap(text= text,
-                     text1= source,
-                     text2= target)
+        # select the word id
+        target_token = tokens[:, target_id]
 
-def swap_a_the(text):
-    source, target = 'a', 'the'
+        return_outputs_dict = {}
+        for method in ["swap", "drop", "add"]:
+            output = corrupt_and_compare_tokens(tokens, 
+                                                target_token, 
+                                                method=method)
+            return_outputs_dict[method] = output
 
-    if not template_searcher(seq= text,
-                      num_context= 26,
-                      num_post_word= 22,
-                      source= source,
-                      target= target):
-        return None
-    
-    return text_swap(text= text,
-                     text1= source,
-                     text2= target)
-
-def drop_text(text, drop = 'a', replace = ''):
-    if not template_searcher(seq= text,
-                      num_context= 26,
-                      num_post_word= 22,
-                      source= drop,
-                      target= replace):
-        return None
-    
-    return text_drop(text= text,
-                     drop= drop,
-                     replace= replace)
-
-def char_edit(text, model, needed_len = 47, target_id = 26):
-    # tokenize the token
-    tokens = model.to_tokens(text, prepend_bos = False)
-    if len(tokens[0]) < needed_len:
-        return None
-
-    # select the word id
-    target_token = tokens[:, target_id]
-
-    return_outputs = []
-    for method in ["swap", "drop", "add"]:
-        output = corrupt_and_compare_tokens(tokens, 
-                                            target_token, 
-                                            method=method)
-        return_outputs.append(output)
-
-    return return_outputs
-
+        return return_outputs_dict
 
 # # Example usage:
 # orig_tokens = ['i', 'have', 'a', 'chic', 'ken']
