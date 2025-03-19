@@ -38,8 +38,8 @@ def detect_ngram_copy(seq_ids: torch.Tensor, n=3, skip_up_to=43):
         return matched_pos, skip_up_to
 
 def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
-    print("n-gram: ", n)
-    print("Skip layers: ", skip_up_to)
+    # print("n-gram: ", n)
+    # print("Skip layers: ", skip_up_to)
 
     total_patched_words = 20
     total_solvable_og = 0
@@ -147,8 +147,8 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     return return_scores
 
 def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
-    print("n-gram: ", n)
-    print("Skip layers: ", skip_up_to)
+    # print("n-gram: ", n)
+    # print("Skip layers: ", skip_up_to)
 
     return_scores = [] 
     total_patched_words = 20
