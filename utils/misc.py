@@ -1,10 +1,16 @@
-import torch, random, numpy as np
-import time
-import torch
-from tqdm import tqdm
-from collections import defaultdict
+import torch, random, numpy as np, json
 import matplotlib.pyplot as plt
+import seaborn as sns
 
+def save_dict_to_json(data, filename):
+    """Saves a dictionary to a JSON file."""
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=4)
+
+def load_dict_from_json(filename):
+    """Loads a dictionary from a JSON file."""
+    with open(filename, "r") as f:
+        return json.load(f)
 
 def seed_everything(seed):
     random.seed(seed)
@@ -106,5 +112,57 @@ def plot_skip_layer_metrics(skip_layers, accuracy3, jaccard_similarity, model_na
     autolabel(bars_acc)
     autolabel(bars_jacc)
 
+    plt.tight_layout()
+    plt.show()
+
+def plot_score_heatmaps(input, schema_name, score_types=['acc2']):
+    """
+    Given data as a list of layers, where each layer is a list of dictionaries,
+    and each dictionary has keys (e.g., "acc2", "acc3", "jcc") mapping to a list of scores
+    of fixed length (num_items), this function computes, for each score type,
+    a matrix of shape (num_layers, num_items) with the mean values (across the dictionaries per layer)
+    and plots a heatmap with the y-axis representing layers (lower layers at the bottom)
+    and the x-axis representing items.
+    
+    Colors are mapped from 0 (red) to 1 (green) using the RdYlGn colormap.
+    """
+    data = input[schema_name]
+    num_layers = len(data)       # number of layers
+    num_items = 20               # each score is a list of length num_items
+    
+    # Compute the mean matrix for each score type
+    matrices = {}
+    for score in score_types:
+        matrix = np.zeros((num_layers, num_items))
+        for layer_idx, layer in enumerate(data):
+            for item_idx in range(num_items):
+                # For each dictionary in the current layer, extract the score at item_idx
+                values = [d[score][item_idx] for d in layer]
+                matrix[layer_idx, item_idx] = np.mean(values)
+        matrices[score] = matrix
+
+    # Create a subplot for each score type.
+    fig, axs = plt.subplots(1, len(score_types), figsize=(7, 9))
+    if len(score_types) == 1:
+        axs = [axs]
+
+    for ax, score in zip(axs, score_types):
+        # Flip the matrix vertically so that the lowest layer (index 0) is at the bottom.
+        matrix_flipped = matrices[score][::-1, :]
+        
+        # Create the heatmap using seaborn.
+        # For x-axis, we label from 1 to num_items.
+        # For y-axis, since we flipped the matrix, label from num_layers down to 1.
+        sns.heatmap(matrix_flipped,
+                    ax=ax,
+                    vmin=0, vmax=1,
+                    cmap='RdYlGn',
+                    annot=True,
+                    # fmt=".2f",
+                    xticklabels=[f"{i+1}" for i in range(num_items)],
+                    yticklabels=[f"{i}" for i in range(num_layers, 0, -1)]
+                   )
+        ax.set_title(score)
+    
     plt.tight_layout()
     plt.show()

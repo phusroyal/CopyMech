@@ -2,7 +2,7 @@ from datasets import load_from_disk
 from tqdm import tqdm
 import random, re
 
-def wiki_loader(num_samples = 1e6):
+def wiki_loader(num_samples = 1000000):
     # Load the dataset from disk
     subset = load_from_disk("/home/longnhat/workspace_phu/CopyMech/english_insertions")
 
@@ -78,7 +78,7 @@ def text_drop(text, drop = 'a', replace = ''):
     elif first_drop != -1:
         return corrupted_text, text[:first_drop], drop
 
-def modify_token(token: str, method: str = None) -> str:
+def modify_token(token: str, method: str = None, seed = 555) -> str:
     """
     Modify a token using one of three methods:
       - "swap": swap the first two characters (if possible)
@@ -86,112 +86,51 @@ def modify_token(token: str, method: str = None) -> str:
       - "add": insert a random lowercase letter before the last character
     If method is None, choose one at random.
     """
-    if method is None:
-        method = random.choice(["swap", "drop", "add"])
+    if len(token) < 3:
+        return None
     
     if method == "swap":
-        if len(token) < 2:
-            return token
-        # Swap the first two characters.
-        return token[1] + token[0] + token[2:]
+        random.seed(seed)
+        tokens = list(token)
+        i, j = random.sample(range(1,len(tokens)), 2) # 1 for cases with space in the beginning
+        tokens[i], tokens[j] = tokens[j], tokens[i]
+        return ''.join(tokens)
     elif method == "drop":
-        if len(token) < 1:
-            return token
-        # Drop the last character.
-        return token[:-1]
+        random.seed(seed)
+        tokens = list(token)
+        j = random.sample(range(2,len(tokens)), 1)[0]
+        tokens = tokens[:j-1] + tokens[j:]
+        return ''.join(tokens)
     elif method == "add":
-        if len(token) < 1:
-            return token
-        # Insert a random lowercase letter before the last character.
+        seed = random.randint(1, 99)
+        random.seed(seed)
+
+        tokens = list(token)
+        j = random.sample(range(1,len(tokens)), 1)[0]
         letter = random.choice("abcdefghijklmnopqrstuvwxyz")
-        return token[:-1] + letter + token[-1]
+        tokens = tokens[:j] + [letter] + tokens[j:]
+        return ''.join(tokens)
     else:
         raise ValueError(f"Unknown method: {method}")
 
-def corrupt_and_compare_tokens(orig_tokens, target_token, method: str = None):
-    """
-    Given a list of tokens (e.g. ['i','have','a','ham','burger']) and a target token to corrupt,
-    modify the target token using one of three methods ("swap", "drop", or "add").
-    
-    When corrupting, if the token is not the first token, remove the intervening space between it and
-    its preceding token. (E.g., merging "ham" and the modified "burger" into "hamubrger".)
-    
-    Then, simulate tokenization of the corrupted sentence as follows:
-      - If the corruption merged two tokens, we assume that a subword tokenizer would split it
-        into [previous_token, modified_token]. Otherwise, the corrupted token is as produced.
-    
-    Finally, compare the original token list to the corrupted token list (simulated)
-    to find the first token where they differ. Return:
-      1. The decoded corrupted sentence up to (but not including) the mismatched token.
-      2. The full corrupted sentence (string).
-      3. The next ground-truth token (from the original) at the mismatch position.
-    
-    Example:
-      orig_tokens = ['i', 'have', 'a', 'ham', 'burger']
-      target_token = 'burger'
-      If method "swap" is used, modified token becomes "ubrger". Then the corrupted sentence is:
-         "i have a hamubrger"
-      which we simulate as tokenized to:
-         ['i', 'have', 'a', 'ham', 'ubrger']
-      The first mismatch is at index 4 (comparing to ['i','have','a','ham','burger']),
-      so we return:
-         ("i have a ham", "i have a hamubrger", "burger")
-    """
-    # Find the target token index (assume first occurrence)
-    try:
-        target_idx = orig_tokens.index(target_token)
-    except ValueError:
-        raise ValueError("Target token not found in the original tokens.")
-    
+def get_outputs_modify(orig_tokens, target_token, idx_target, method: str = None):
     # Modify the token using the specified method.
     modified_token = modify_token(target_token, method=method)
+
+    if modified_token is None:
+        return None
     
     # Build the corrupted tokens.
-    # If the target token is not the first token, merge it with the preceding token (i.e. drop the space).
-    corrupted_tokens = orig_tokens.copy()
-    if target_idx == 0:
-        corrupted_tokens[0] = modified_token
-    else:
-        # Merge the preceding token with the modified token.
-        # For display, we remove the space between them.
-        merged = corrupted_tokens[target_idx - 1] + modified_token
-        # Replace the preceding token with the merged token and remove the target token.
-        corrupted_tokens[target_idx - 1] = merged
-        corrupted_tokens.pop(target_idx)
-    
-    # Build the corrupted sentence (joined by spaces).
-    corrupted_sentence = " ".join(corrupted_tokens)
-    
-    # Simulate tokenization of the corrupted sentence.
-    # If the target was not at index 0, assume the merged token gets split back into two tokens:
-    # the original preceding token and the modified token.
-    if target_idx > 0:
-        simulated_tokens = (
-            orig_tokens[:target_idx - 1] +
-            [orig_tokens[target_idx - 1], modified_token] +
-            orig_tokens[target_idx+1:]
-        )
-    else:
-        simulated_tokens = corrupted_tokens  # no merging happened
-    
-    # Compare the original tokens with the simulated corrupted tokens to find the first mismatch.
-    min_len = min(len(orig_tokens), len(simulated_tokens))
-    mismatch_index = None
-    for i in range(min_len):
-        if orig_tokens[i] != simulated_tokens[i]:
-            mismatch_index = i
-            break
-    if mismatch_index is None:
-        mismatch_index = min_len  # if all tokens match in the common prefix
-    
-    # The decoded corrupted sentence up to the mismatch (join tokens from simulated list up to mismatch).
-    decoded_up_to = " ".join(simulated_tokens[:mismatch_index])
-    
-    # The next ground-truth token from the original (if available).
-    ground_truth_next = orig_tokens[mismatch_index] if mismatch_index < len(orig_tokens) else None
-    
-    return corrupted_sentence, decoded_up_to, ground_truth_next
+    corrupted_tokens = orig_tokens[:idx_target] + [modified_token] + orig_tokens[idx_target+1:]
 
+    # Build the corrupted sentence
+    corrupted_sentence = "".join(corrupted_tokens)
+
+    # The decoded corrupted sentence up to the target_token
+    decoded_up_to = "".join(orig_tokens[:idx_target])
+
+    return corrupted_sentence, decoded_up_to, target_token
+    
 class Scheme():
     def __init__(self, source='', target=''):
         self.source = source
@@ -223,20 +162,26 @@ class Scheme():
                             replace= self.target)
         return outputs, (self.source, self.target)
         
-    def char_edit(text, model, needed_len = 47, target_id = 26):
+    def char_edit(self, text, model, needed_len = 47, target_id = 26):
         # tokenize the token
         tokens = model.to_tokens(text, prepend_bos = False)
         if len(tokens[0]) < needed_len:
             return None
 
-        # select the word id
-        target_token = tokens[:, target_id]
+        orig_tokens = []
+        for tok in tokens[0]:
+            orig_tokens.append(model.to_string(tok))
 
+        # select the word id
+        target_token = orig_tokens[target_id]
         return_outputs_dict = {}
         for method in ["swap", "drop", "add"]:
-            output = corrupt_and_compare_tokens(tokens, 
-                                                target_token, 
-                                                method=method)
+            output = get_outputs_modify(orig_tokens, 
+                                        target_token,
+                                        idx_target= target_id,
+                                        method= method)
+            if output is None:
+                return None
             return_outputs_dict[method] = output
 
         return return_outputs_dict
