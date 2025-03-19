@@ -1,7 +1,4 @@
 import torch
-import einops
-
-from fancy_einsum import einsum
 from collections import defaultdict
 from jaxtyping import Float
 from functools import partial
@@ -12,9 +9,6 @@ from .misc import (
     get_top_k,
     get_acc
 )
-
-import tqdm.auto as tqdm
-
 def detect_ngram_copy(seq_ids: torch.Tensor, n=3, skip_up_to=43):
     """
     Minimal function that tries to find n-gram copy scenario
@@ -49,18 +43,14 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
 
     total_patched_words = 20
     total_solvable_og = 0
-    score_list_dict = {
-        'acc2': [],
-        'acc3': [],
-        'jcc': []
-    }
+    return_scores = []    
 
-    for edited in tqdm(edited_phrases):
+    for edited in edited_phrases:
         if total_solvable_og == 100:
             break
         
         outputs = schema(edited)
-        if not outputs[0]:
+        if not outputs:
             continue
 
         # preprocess text
@@ -83,12 +73,16 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
         elif source in decoded_og_next_token and correct_tobe == source:
             total_solvable_og += 1
         else:
-            # total_unsolvable += 1
             continue
-        
+
         patching_succeed_flag = True
         # start on patching model
-        for num_word2patch in range(total_patched_words):
+        score_list_dict = {
+            'acc2': [],
+            'acc3': [],
+            'jcc': []
+        }
+        for num_word2patch in range(1, total_patched_words+1):
             if not patching_succeed_flag:
                 break
 
@@ -100,16 +94,16 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
 
             for id in range(num_word2patch):
                 assert id < len(prompt_tokens[0])
-                pos_matched.append(detect_ngram_copy(prompt_tokens[:, :len(prompt_tokens)[0]-id], n=n)[0])
+                pos_matched.append(detect_ngram_copy(prompt_tokens[:, :len(prompt_tokens[0])-id], n=n)[0])
                 pos_current.append(len(prompt_tokens[0])-id-1)
-
+            
             # if there any none of finding ngram, break the experiment with current prompt
             # as it does not have enough tokens
-            if None in pos_matched:
+            if None in pos_matched or len(pos_matched) == 0:
                 total_solvable_og -= 1
                 patching_succeed_flag = False
-                break            
-                
+                break        
+
             # start hooking
             def residual_stream_patching_hook(
                 resid_pre: Float[torch.Tensor, "batch pos d_model"],
@@ -146,29 +140,28 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
             score_list_dict["acc2"].append(acc)
             score_list_dict["jcc"].append(jcc)
             score_list_dict["acc3"].append(sum(total_matches) / len(total_matches))
+        
+        if patching_succeed_flag:
+            return_scores.append(score_list_dict)
 
-    return score_list_dict
+    return return_scores
 
 def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     print("n-gram: ", n)
     print("Skip layers: ", skip_up_to)
 
+    return_scores = [] 
     total_patched_words = 20
     total_solvable_dict = {
         'swap': 0,
         'drop': 0,
         'add': 0
     }
-    score_list_dict = {
-        'acc2': [],
-        'acc3': [],
-        'jcc': []
-    }
 
-    for edited in tqdm(edited_phrases):
-        if total_solvable_dict["add"] == 33 and \
-            total_solvable_dict['drop'] == 33 and \
-                total_solvable_dict['add'] == 34:
+    for edited in edited_phrases:
+        if total_solvable_dict["add"] == 3 and \
+            total_solvable_dict['drop'] == 3 and \
+                total_solvable_dict['add'] == 3:
             break
         
         return_outputs = schema(edited, model)
@@ -177,7 +170,7 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
 
         # preprocess text
         for method, outputs in return_outputs.items():
-            corrupted_sentence, decoded_up_to, ground_truth_next = outputs[0]
+            corrupted_sentence, decoded_up_to, ground_truth_next = outputs
             prompt = f"Please fix grammar of the following text: '{corrupted_sentence}'. The correct text is: {decoded_up_to}"
             prompt_tokens = model.to_tokens(prompt, prepend_bos=False)
 
@@ -195,10 +188,15 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
             else:
                 # total_unsolvable += 1
                 continue
-            
+
             patching_succeed_flag = True
+            score_list_dict = {
+                'acc2': [],
+                'acc3': [],
+                'jcc': []
+            }       
             # start on patching model
-            for num_word2patch in range(total_patched_words):
+            for num_word2patch in range(1, total_patched_words+1):
                 if not patching_succeed_flag:
                     break
 
@@ -210,7 +208,7 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
 
                 for id in range(num_word2patch):
                     assert id < len(prompt_tokens[0])
-                    pos_matched.append(detect_ngram_copy(prompt_tokens[:, :len(prompt_tokens)[0]-id], n=n)[0])
+                    pos_matched.append(detect_ngram_copy(prompt_tokens[:, :len(prompt_tokens[0])-id], n=n)[0])
                     pos_current.append(len(prompt_tokens[0])-id-1)
 
                 # if there any none of finding ngram, break the experiment with current prompt
@@ -257,8 +255,11 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
                 score_list_dict["jcc"].append(jcc)
                 score_list_dict["acc3"].append(sum(total_matches) / len(total_matches))
 
-    return score_list_dict
+            if patching_succeed_flag:
+                return_scores.append(score_list_dict)
     
+    return return_scores
+
 # def residual_stream_patching_hook(
 #     resid_pre: Float[torch.Tensor, "batch pos d_model"],
 #     hook: HookPoint,
