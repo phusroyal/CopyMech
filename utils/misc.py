@@ -115,7 +115,7 @@ def plot_skip_layer_metrics(skip_layers, accuracy3, jaccard_similarity, model_na
     plt.tight_layout()
     plt.show()
 
-def plot_score_heatmaps(input, schema_name, score_types=['acc2']):
+def plot_score_heatmaps(input, score_types=['acc2']):
     """
     Given data as a list of layers, where each layer is a list of dictionaries,
     and each dictionary has keys (e.g., "acc2", "acc3", "jcc") mapping to a list of scores
@@ -126,7 +126,8 @@ def plot_score_heatmaps(input, schema_name, score_types=['acc2']):
     
     Colors are mapped from 0 (red) to 1 (green) using the RdYlGn colormap.
     """
-    data = input[schema_name]
+    # data = input[schema_name]
+    data = input
     num_layers = len(data)       # number of layers
     num_items = 20               # each score is a list of length num_items
     
@@ -142,7 +143,7 @@ def plot_score_heatmaps(input, schema_name, score_types=['acc2']):
         matrices[score] = matrix
 
     # Create a subplot for each score type.
-    fig, axs = plt.subplots(1, len(score_types), figsize=(7, 9))
+    fig, axs = plt.subplots(1, len(score_types), figsize=(10, 9))
     if len(score_types) == 1:
         axs = [axs]
 
