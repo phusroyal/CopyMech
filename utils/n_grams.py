@@ -9,6 +9,7 @@ from .misc import (
     get_top_k,
     get_acc
 )
+
 def detect_ngram_copy(seq_ids: torch.Tensor, n=3, skip_up_to=43):
     """
     Minimal function that tries to find n-gram copy scenario
@@ -159,17 +160,21 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     }
 
     for edited in edited_phrases:
-        if total_solvable_dict["add"] == 3 and \
+        if total_solvable_dict['swap'] == 3 and \
             total_solvable_dict['drop'] == 3 and \
-                total_solvable_dict['add'] == 3:
+                total_solvable_dict['add'] == 4:
             break
         
-        return_outputs = schema(edited, model)
+        return_outputs = schema(text = edited, model = model)
         if not return_outputs:
             continue
 
         # preprocess text
         for method, outputs in return_outputs.items():
+            if total_solvable_dict[method] == 3 and method in ['swap', 'drop']:
+                continue
+            if total_solvable_dict[method] == 4 and method in ['add']:
+                continue
             corrupted_sentence, decoded_up_to, ground_truth_next = outputs
             prompt = f"Please fix grammar of the following text: '{corrupted_sentence}'. The correct text is: {decoded_up_to}"
             prompt_tokens = model.to_tokens(prompt, prepend_bos=False)
