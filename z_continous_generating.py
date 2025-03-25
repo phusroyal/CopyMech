@@ -1,5 +1,5 @@
 import torch ,os
-from utils import data_loader, misc, n_grams_cp
+from utils import data_loader, misc, n_grams_cg
 from collections import defaultdict
 from tqdm import tqdm
 from transformer_lens import HookedTransformer
@@ -28,19 +28,19 @@ schemas = {
     'char_edit': data_loader.Scheme().char_edit,
 }
 
-task_name = 'copy_mode'
+task_name = 'cont_gen'
 info_lst = defaultdict(list)
 for schema_name, schema in schemas.items():
     print(schema_name)
     for skip in tqdm(range(num_layers-1)):
         skip += 1
         if schema_name == 'char_edit':
-            outputs = n_grams_cp.ngram_char_edits_cp(model= model,
+            outputs = n_grams_cg.ngram_char_edits_cg(model= model,
                                             skip_up_to= skip,
                                             edited_phrases= edited_phrases,
                                             schema= schema)
         else:
-            outputs = n_grams_cp.ngram_cp(model= model,
+            outputs = n_grams_cg.ngram_cg(model= model,
                             skip_up_to= skip,
                             edited_phrases= edited_phrases,
                             schema= schema)
