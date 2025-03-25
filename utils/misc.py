@@ -1,4 +1,4 @@
-import torch, random, numpy as np, json
+import torch, random, numpy as np, json, os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -11,6 +11,25 @@ def load_dict_from_json(filename):
     """Loads a dictionary from a JSON file."""
     with open(filename, "r") as f:
         return json.load(f)
+    
+def load_json_files(folder_path):
+    """
+    Loads all JSON files in the specified folder and returns their contents as a list.
+
+    Parameters:
+        folder_path (str): Path to the folder containing JSON files.
+
+    Returns:
+        list: A list where each element is the data loaded from a JSON file.
+    """
+    data_list = []
+    for file_name in os.listdir(folder_path):
+        if file_name.endswith(".json"):
+            file_path = os.path.join(folder_path, file_name)
+            with open(file_path, 'r') as json_file:
+                data = json.load(json_file)
+                data_list.append(data)
+    return data_list
 
 def seed_everything(seed):
     random.seed(seed)
@@ -39,7 +58,7 @@ def jaccard_similarity(list1, list2):
     union = len(set1) + len(set2) - intersection
     return  intersection / union
 
-def get_acc(info_lst):
+def get_acc(info_lst, return_all=False):
     jcc_ult = []
     acc_ult = []
 
@@ -69,6 +88,9 @@ def get_acc(info_lst):
 
     avg_jcc = cal_avg(jcc_ult)
     avg_acc = cal_avg(acc_ult)
+
+    if return_all:
+        return avg_jcc, avg_acc, jcc_ult, acc_ult
 
     return avg_jcc, avg_acc
 
@@ -115,7 +137,30 @@ def plot_skip_layer_metrics(skip_layers, accuracy3, jaccard_similarity, model_na
     plt.tight_layout()
     plt.show()
 
-def plot_score_heatmaps(input, score_types=['acc2']):
+def elementwise_mean(matrices):
+    # Stack the matrices along a new axis, then compute the mean along that axis.
+    matrices = np.array(matrices)
+    stacked = np.stack(matrices)
+    return np.mean(stacked, axis=0)
+
+def get_mat(data_lst, score_types, num_items, num_layers):        
+    # Compute the mean matrix for each score type
+    matrices = {}
+
+    for score in score_types:
+        score_data = []
+        for data in data_lst:
+            matrix = np.zeros((num_layers, num_items))
+            for layer_idx, layer in enumerate(data):
+                for item_idx in range(num_items):
+                    # For each dictionary in the current layer, extract the score at item_idx
+                    values = [d[score][item_idx] for d in layer]
+                    matrix[layer_idx, item_idx] = np.mean(values)
+            score_data.append(matrix)            
+        matrices[score] = elementwise_mean(score_data)
+    return matrices
+
+def plot_score_heatmaps(inputs, score_types=['acc2']):
     """
     Given data as a list of layers, where each layer is a list of dictionaries,
     and each dictionary has keys (e.g., "acc2", "acc3", "jcc") mapping to a list of scores
@@ -125,22 +170,19 @@ def plot_score_heatmaps(input, score_types=['acc2']):
     and the x-axis representing items.
     
     Colors are mapped from 0 (red) to 1 (green) using the RdYlGn colormap.
-    """
-    # data = input[schema_name]
-    data = input
-    num_layers = len(data)       # number of layers
-    num_items = 20               # each score is a list of length num_items
-    
-    # Compute the mean matrix for each score type
-    matrices = {}
-    for score in score_types:
-        matrix = np.zeros((num_layers, num_items))
-        for layer_idx, layer in enumerate(data):
-            for item_idx in range(num_items):
-                # For each dictionary in the current layer, extract the score at item_idx
-                values = [d[score][item_idx] for d in layer]
-                matrix[layer_idx, item_idx] = np.mean(values)
-        matrices[score] = matrix
+    """  
+    title_dict= {
+        'acc2': 'Accuracy',
+        'jcc': 'Jaccard Distance'
+    }
+
+    num_items = 20
+    num_layers = len(inputs[0])
+
+    matrices = get_mat(data_lst= inputs,
+                       score_types= score_types,
+                       num_items= num_items,
+                       num_layers= num_layers)
 
     # Create a subplot for each score type.
     fig, axs = plt.subplots(1, len(score_types), figsize=(10, 9))
@@ -163,7 +205,7 @@ def plot_score_heatmaps(input, score_types=['acc2']):
                     xticklabels=[f"{i+1}" for i in range(num_items)],
                     yticklabels=[f"{i}" for i in range(num_layers, 0, -1)]
                    )
-        ax.set_title(score)
+        ax.set_title(title_dict[score])
     
     plt.tight_layout()
     plt.show()
