@@ -17,14 +17,14 @@ num_layers = model.cfg.n_layers
 _, _, edited_phrases = data_loader.wiki_loader(num_samples=2000000)
 
 schemas = {
-    'swap_is_are': data_loader.Scheme(source= 'is',
-                                         target= 'are').swap_words,
-    'swap_was_were': data_loader.Scheme(source= 'was',
-                                         target= 'were').swap_words,
-    'swap_a_the': data_loader.Scheme(source= 'a',
-                                         target= 'the').swap_words,
-    'drop_a': data_loader.Scheme(source= 'a',
-                                         target= '').drop_words,
+    # 'swap_is_are': data_loader.Scheme(source= 'is',
+    #                                      target= 'are').swap_words,
+    # 'swap_was_were': data_loader.Scheme(source= 'was',
+    #                                      target= 'were').swap_words,
+    # 'swap_a_the': data_loader.Scheme(source= 'a',
+    #                                      target= 'the').swap_words,
+    # 'drop_a': data_loader.Scheme(source= 'a',
+    #                                      target= '').drop_words,
     'char_edit': data_loader.Scheme().char_edit,
 }
 
@@ -32,18 +32,17 @@ task_name = 'cont_gen'
 info_lst = defaultdict(list)
 for schema_name, schema in schemas.items():
     print(schema_name)
-    for skip in tqdm(range(num_layers-1)):
-        skip += 1
-        if schema_name == 'char_edit':
-            outputs = n_grams_cg.ngram_char_edits_cg(model= model,
-                                            skip_up_to= skip,
-                                            edited_phrases= edited_phrases,
-                                            schema= schema)
-        else:
-            outputs = n_grams_cg.ngram_cg(model= model,
-                            skip_up_to= skip,
-                            edited_phrases= edited_phrases,
-                            schema= schema)
-        info_lst[schema_name].append(outputs)
+    skip = 5
+    if schema_name == 'char_edit':
+        outputs = n_grams_cg.ngram_char_edits_cg(model= model,
+                                        skip_up_to= skip,
+                                        edited_phrases= edited_phrases,
+                                        schema= schema)
+    else:
+        outputs = n_grams_cg.ngram_cg(model= model,
+                        skip_up_to= skip,
+                        edited_phrases= edited_phrases,
+                        schema= schema)
+    info_lst[schema_name].append(outputs)
 
     misc.save_dict_to_json(info_lst[schema_name], f"output/{task_name}_{schema_name}.json")

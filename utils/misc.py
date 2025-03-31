@@ -1,6 +1,8 @@
 import torch, random, numpy as np, json, os
 import matplotlib.pyplot as plt
 import seaborn as sns
+import nltk
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 
 def save_dict_to_json(data, filename):
     """Saves a dictionary to a JSON file."""
@@ -93,6 +95,63 @@ def get_acc(info_lst, return_all=False):
         return avg_jcc, avg_acc, jcc_ult, acc_ult
 
     return avg_jcc, avg_acc
+
+def compute_bleu(candidate, reference):
+    """
+    Compute BLEU score for a candidate sentence against a reference sentence.
+    Both candidate and reference should be provided as lists of tokens.
+    """
+    # NLTK expects reference to be a list of reference sentences (each a list of tokens)
+    smoothie = SmoothingFunction().method4
+    bleu = sentence_bleu([reference], candidate, smoothing_function=smoothie)
+    return bleu
+
+def lcs_length(x, y):
+    """
+    Compute the length of the longest common subsequence between two sequences x and y.
+    x and y are lists of tokens.
+    """
+    m = len(x)
+    n = len(y)
+    # Create a DP table of size (m+1) x (n+1)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    for i in range(m):
+        for j in range(n):
+            if x[i] == y[j]:
+                dp[i+1][j+1] = dp[i][j] + 1
+            else:
+                dp[i+1][j+1] = max(dp[i+1][j], dp[i][j+1])
+    return dp[m][n]
+
+def compute_rouge_l(candidate, reference, beta=1.0):
+    """
+    Compute ROUGE-L F-measure between a candidate and a reference sentence.
+    
+    ROUGE-L is based on the length of the longest common subsequence (LCS) between the candidate
+    and reference. The F-measure is computed as:
+    
+        F = ((1 + beta^2) * P * R) / (R + beta^2 * P)
+    
+    where:
+        P = LCS(candidate, reference) / len(candidate)
+        R = LCS(candidate, reference) / len(reference)
+    
+    Parameters:
+      candidate (list): Candidate sentence as a list of tokens.
+      reference (list): Reference sentence as a list of tokens.
+      beta (float): Weighting factor (default 1.0 gives equal weight to precision and recall).
+    
+    Returns:
+      float: The ROUGE-L F1 score.
+    """
+    lcs = lcs_length(candidate, reference)
+    precision = lcs / len(candidate) if candidate else 0.0
+    recall = lcs / len(reference) if reference else 0.0
+    if precision + recall == 0:
+        fscore = 0.0
+    else:
+        fscore = ((1 + beta**2) * precision * recall) / (recall + beta**2 * precision)
+    return fscore
 
 
 def plot_skip_layer_metrics(skip_layers, accuracy3, jaccard_similarity, model_name, schema, leg_loc='lower right'):
