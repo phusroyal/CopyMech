@@ -7,8 +7,25 @@ from transformer_lens.hook_points import HookPoint
 
 from .misc import (
     get_top_k,
-    get_acc
+    get_acc,
+    compute_bleu,
+    compute_rouge_l
 )
+
+def detect_extra_token(list1, list2):
+    # Ensure both lists have at least two tokens.
+    if len(list1) < 2 or len(list2) < 2:
+        return None, None
+
+    # Compare last token of list1 to second-to-last token of list2.
+    if list1[-1] == list2[-2]:
+        return list1, list2[:-1]
+    # Compare last token of list2 to second-to-last token of list1.
+    elif list2[-1] == list1[-2]:
+        return list1[:-1], list2
+    else:
+        # If neither condition holds, we cannot determine an extra token based on the end pattern.
+        return None, None
 
 def detect_ngram_copy(seq_ids: torch.Tensor, n=3, skip_up_to=43):
     """
@@ -94,11 +111,10 @@ def ngram_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, gen_num=20):
             # og_next_token_lst.append(og_next_token)
         
         patching_succeed_flag = True
-        # start on patching model
         score_list_dict = defaultdict(list)
-        # score_list = []        
-        # pt_topk_lst = []
-        # pt_next_token_lst = []
+        prompt_num_tokens = prompt_tokens.shape[1]
+
+        # start on patching model
         for num_word2patch in range(total_patched_words, total_patched_words+1):
             if not patching_succeed_flag:
                 break
@@ -107,7 +123,6 @@ def ngram_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, gen_num=20):
 
             pos_matched = []
             pos_current = []
-            # total_matches = []
 
             for id in range(num_word2patch):
                 assert id < len(prompt_tokens[0])
@@ -149,16 +164,6 @@ def ngram_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, gen_num=20):
                 # concat next tokens
                 pt_prompt_tokens = torch.cat([pt_prompt_tokens, tp_next_token], dim=1)  
 
-                # pt_topk_indices = get_top_k(patched_logits, k)
-                # get the highest prob token
-                # pt_next_token = torch.tensor([pt_topk_indices[0]]).unsqueeze(0).to(og_logits.device)
-
-                # # compare the predicted to the og prediction
-                # if torch.equal(og_next_token, pt_next_token):
-                #     total_matches.append(1)
-                # else:
-                #     total_matches.append(0)
-
                 dict_pred_info[idx]['original'] = og_topk_lst[idx]
                 dict_pred_info[idx]['copy'] = tp_topk_indices
         
@@ -167,7 +172,16 @@ def ngram_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, gen_num=20):
             score_list_dict["jcc"].append(jcc_avg)
             score_list_dict["acc_all"].append(acc_all)
             score_list_dict["jcc_all"].append(jcc_all)
-            # print(score_list_dict)
+
+            candidate = model.to_string(og_prompt_tokens[0,prompt_num_tokens:]).split()
+            reference = model.to_string(pt_prompt_tokens[0,prompt_num_tokens:]).split()
+            candidate, reference = detect_extra_token(candidate, reference)
+            bleu = compute_bleu(candidate, reference)
+            rouge_l = compute_rouge_l(candidate, reference)
+            score_list_dict['bleu_rougel'].append([bleu, rouge_l])
+
+            score_list_dict['og_generated'].append(candidate)
+            score_list_dict['pt_generated'].append(reference)
         
         if patching_succeed_flag:
             return_scores.append(score_list_dict)
@@ -206,12 +220,6 @@ def ngram_char_edits_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, g
             prompt = f"Please fix grammar of the following text: '{corrupted_sentence}'. The correct text is: {decoded_up_to}"
             prompt_tokens = model.to_tokens(prompt, prepend_bos=False)
 
-            # As we does not need on the turning point, we can skip the last tokens
-            # Prompt: A B C D is .... A B C [D]
-            # Get the last token of the prompt as the token to predict
-            next_token_ref = prompt_tokens[:, -1]
-            prompt_tokens = prompt_tokens[:, :-1] 
-
             # run on the prompt once with cache to store activations to patch in later
             og_logits, og_cache = model.run_with_cache(prompt_tokens)
             # get the top k tokens
@@ -219,8 +227,9 @@ def ngram_char_edits_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, g
             # get the highest prob token
             og_next_token = torch.tensor([og_topk_indices[0]]).unsqueeze(0).to(og_logits.device)
 
-            # check if model can solve the task (now, D should be predicted, aka next_token_ref)
-            if torch.equal(og_next_token[0], next_token_ref):
+            # check if model can solve the task
+            decoded_og_next_token = model.to_string(og_next_token)[0]
+            if ground_truth_next in decoded_og_next_token: 
                 total_solvable_dict[method] += 1
             else:
                 continue
@@ -243,11 +252,9 @@ def ngram_char_edits_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, g
                 # og_next_token_lst.append(og_next_token)
 
             patching_succeed_flag = True
-            score_list_dict = {
-                'acc2': [],
-                'acc3': [],
-                'jcc': []
-            }       
+            score_list_dict =  defaultdict(list)
+            prompt_num_tokens = prompt_tokens.shape[1]
+
             # start on patching model
             for num_word2patch in range(total_patched_words, total_patched_words+1):
                 if not patching_succeed_flag:
@@ -257,7 +264,6 @@ def ngram_char_edits_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, g
 
                 pos_matched = []
                 pos_current = []
-                total_matches = []
 
                 for id in range(num_word2patch):
                     assert id < len(prompt_tokens[0])
@@ -299,7 +305,6 @@ def ngram_char_edits_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, g
                     # concat next tokens
                     pt_prompt_tokens = torch.cat([pt_prompt_tokens, tp_next_token], dim=1)
                 
-
                     dict_pred_info[idx]['original'] = og_topk_lst[idx]
                     dict_pred_info[idx]['copy'] = tp_topk_indices
             
@@ -308,6 +313,16 @@ def ngram_char_edits_cg(model, skip_up_to, edited_phrases, schema, n=5, k=100, g
                 score_list_dict["jcc"].append(jcc_avg)
                 score_list_dict["acc_all"].append(acc_all)
                 score_list_dict["jcc_all"].append(jcc_all)
+
+                candidate = model.to_string(og_prompt_tokens[0,prompt_num_tokens:]).split()
+                reference = model.to_string(pt_prompt_tokens[0,prompt_num_tokens:]).split()
+                candidate, reference = detect_extra_token(candidate, reference)
+                bleu = compute_bleu(candidate, reference)
+                rouge_l = compute_rouge_l(candidate, reference)
+                score_list_dict['bleu_rougel'].append([bleu, rouge_l])
+
+                score_list_dict['og_generated'].append(candidate)
+                score_list_dict['pt_generated'].append(reference)
 
             if patching_succeed_flag:
                 return_scores.append(score_list_dict)
