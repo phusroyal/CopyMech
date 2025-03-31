@@ -17,14 +17,14 @@ num_layers = model.cfg.n_layers
 _, _, edited_phrases = data_loader.wiki_loader(num_samples=2000000)
 
 schemas = {
-    # 'swap_is_are': data_loader.Scheme(source= 'is',
-    #                                      target= 'are').swap_words,
-    # 'swap_was_were': data_loader.Scheme(source= 'was',
-    #                                      target= 'were').swap_words,
-    # 'swap_a_the': data_loader.Scheme(source= 'a',
-    #                                      target= 'the').swap_words,
-    # 'drop_a': data_loader.Scheme(source= 'a',
-    #                                      target= '').drop_words,
+    'swap_is_are': data_loader.Scheme(source= 'is',
+                                         target= 'are').swap_words,
+    'swap_was_were': data_loader.Scheme(source= 'was',
+                                         target= 'were').swap_words,
+    'swap_a_the': data_loader.Scheme(source= 'a',
+                                         target= 'the').swap_words,
+    'drop_a': data_loader.Scheme(source= 'a',
+                                         target= '').drop_words,
     'char_edit': data_loader.Scheme().char_edit,
 }
 
