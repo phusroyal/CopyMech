@@ -15,7 +15,7 @@ from .misc import (
 def detect_extra_token(list1, list2):
     # Ensure both lists have at least two tokens.
     if len(list1) < 2 or len(list2) < 2:
-        return None, None
+        return list1, list2
 
     # Compare last token of list1 to second-to-last token of list2.
     if list1[-1] == list2[-2]:
@@ -25,7 +25,7 @@ def detect_extra_token(list1, list2):
         return list1[:-1], list2
     else:
         # If neither condition holds, we cannot determine an extra token based on the end pattern.
-        return None, None
+        return list1, list2
 
 def detect_ngram_copy(seq_ids: torch.Tensor, n=3, skip_up_to=43):
     """
