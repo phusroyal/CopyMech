@@ -60,6 +60,54 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "tutelage",
+                    "of",
+                    "ATI,",
+                    "start",
+                    "their",
+                    "career",
+                    "as",
+                    "Deputy",
+                    "Magistrate",
+                    "and",
+                    "Deputy",
+                    "Collector",
+                    "and",
+                    "Block",
+                    "Development",
+                    "(B"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "tutelage",
+                    "of",
+                    "ATI,",
+                    "start",
+                    "their",
+                    "career",
+                    "as",
+                    "Deputy",
+                    "Magistrate",
+                    "and",
+                    "Deputy",
+                    "Collector",
+                    "and",
+                    "Block",
+                    "Development",
+                    "(B"
+                ]
             ]
         },
         {
@@ -121,6 +169,54 @@
                         0.9607843137254902,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "same",
+                    "name",
+                    ",",
+                    "thus",
+                    "including",
+                    "ones",
+                    "at",
+                    "Jaipur",
+                    "-",
+                    "Yantra",
+                    "Mantra",
+                    "(",
+                    "Jaipur",
+                    ")",
+                    ",",
+                    "U"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "same",
+                    "name",
+                    ",",
+                    "thus",
+                    "including",
+                    "ones",
+                    "at",
+                    "Jaipur",
+                    "-",
+                    "Yantra",
+                    "Mantra",
+                    "(",
+                    "Jaipur",
+                    ")",
+                    ",",
+                    "U"
                 ]
             ]
         },
@@ -184,6 +280,48 @@
                         0.7094017094017094
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "time",
+                    ",",
+                    "introduced",
+                    "Delp",
+                    "to",
+                    "Tom",
+                    "Scholz",
+                    "while",
+                    "Scholz",
+                    ",",
+                    "Goudreau",
+                    "and",
+                    "Jim"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "time",
+                    ",",
+                    "introduced",
+                    "Delp",
+                    "to",
+                    "Tom",
+                    "Scholz",
+                    "while",
+                    "Scholz",
+                    ",",
+                    "Goudreau",
+                    "and",
+                    "Jim"
+                ]
             ]
         },
         {
@@ -245,6 +383,54 @@
                         0.941747572815534,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "largest",
+                    "industrial",
+                    "labor",
+                    "union",
+                    "in",
+                    "North",
+                    "America,",
+                    "and",
+                    "claims",
+                    "over",
+                    "1.2",
+                    "million",
+                    "active",
+                    "and",
+                    "retired",
+                    "workers"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "largest",
+                    "industrial",
+                    "labor",
+                    "union",
+                    "in",
+                    "North",
+                    "America,",
+                    "and",
+                    "claims",
+                    "over",
+                    "1.2",
+                    "million",
+                    "active",
+                    "and",
+                    "retired",
+                    "workers"
                 ]
             ]
         },
@@ -308,6 +494,54 @@
                         0.8867924528301887
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "county",
+                    ",",
+                    "including",
+                    "its",
+                    "91",
+                    "municipalities",
+                    "which",
+                    "are",
+                    "also",
+                    "served",
+                    "by",
+                    "58",
+                    "local",
+                    "police",
+                    "departments",
+                    ","
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "county",
+                    ",",
+                    "including",
+                    "its",
+                    "91",
+                    "municipalities",
+                    "which",
+                    "are",
+                    "also",
+                    "served",
+                    "by",
+                    "58",
+                    "local",
+                    "police",
+                    "departments",
+                    ","
+                ]
             ]
         },
         {
@@ -369,6 +603,40 @@
                         0.32450331125827814,
                         0.2903225806451613
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.4779995354275013,
+                    0.7999999999999999
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "1970s",
+                    ",",
+                    "including",
+                    "'Break",
+                    "Out!'",
+                    "(",
+                    "1971",
+                    ")"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "1970s",
+                    ",",
+                    "including",
+                    "'Break",
+                    "Out",
+                    "!",
+                    "'",
+                    "(",
+                    "1971",
+                    ")"
                 ]
             ]
         },
@@ -432,6 +700,62 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "good",
+                    "of",
+                    "Britain",
+                    ",",
+                    "yet",
+                    "many",
+                    "of",
+                    "her",
+                    "subjects",
+                    "and",
+                    "knights",
+                    "become",
+                    "critical",
+                    "of",
+                    "her",
+                    "lack",
+                    "of",
+                    "humanity",
+                    "and",
+                    "cold"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "good",
+                    "of",
+                    "Britain",
+                    ",",
+                    "yet",
+                    "many",
+                    "of",
+                    "her",
+                    "subjects",
+                    "and",
+                    "knights",
+                    "become",
+                    "critical",
+                    "of",
+                    "her",
+                    "lack",
+                    "of",
+                    "humanity",
+                    "and",
+                    "cold"
+                ]
             ]
         },
         {
@@ -493,6 +817,57 @@
                         0.9230769230769231,
                         0.6129032258064516
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8086627571031982,
+                    0.918918918918919
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "United",
+                    "States",
+                    ",",
+                    "and",
+                    "third",
+                    "highest",
+                    "for",
+                    "economic",
+                    "diversity",
+                    "as",
+                    "measured",
+                    "by",
+                    "low-income",
+                    "students",
+                    "receiving",
+                    "federal",
+                    "Pell",
+                    "Grants."
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "United",
+                    "States,",
+                    "and",
+                    "third",
+                    "highest",
+                    "for",
+                    "economic",
+                    "diversity",
+                    "as",
+                    "measured",
+                    "by",
+                    "low-income",
+                    "students",
+                    "receiving",
+                    "federal",
+                    "Pell",
+                    "Grants."
                 ]
             ]
         },
@@ -556,6 +931,62 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "Philippines",
+                    ",",
+                    "Poland",
+                    ",",
+                    "Portugal",
+                    ",",
+                    "Romania",
+                    ",",
+                    "Russia",
+                    ",",
+                    "Singapore",
+                    "Navy",
+                    ",",
+                    "South",
+                    "Korea",
+                    ",",
+                    "Sweden",
+                    ",",
+                    "and",
+                    "Turkey"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "Philippines",
+                    ",",
+                    "Poland",
+                    ",",
+                    "Portugal",
+                    ",",
+                    "Romania",
+                    ",",
+                    "Russia",
+                    ",",
+                    "Singapore",
+                    "Navy",
+                    ",",
+                    "South",
+                    "Korea",
+                    ",",
+                    "Sweden",
+                    ",",
+                    "and",
+                    "Turkey"
+                ]
             ]
         },
         {
@@ -617,6 +1048,62 @@
                         0.9801980198019802,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "United",
+                    "Kingdom",
+                    "as",
+                    "well",
+                    "as",
+                    "databases",
+                    "of",
+                    "law",
+                    "review",
+                    "and",
+                    "legal",
+                    "journal",
+                    "articles",
+                    "for",
+                    "countries",
+                    "for",
+                    "which",
+                    "materials",
+                    "are",
+                    "available"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "United",
+                    "Kingdom",
+                    "as",
+                    "well",
+                    "as",
+                    "databases",
+                    "of",
+                    "law",
+                    "review",
+                    "and",
+                    "legal",
+                    "journal",
+                    "articles",
+                    "for",
+                    "countries",
+                    "for",
+                    "which",
+                    "materials",
+                    "are",
+                    "available"
                 ]
             ]
         },
@@ -680,6 +1167,60 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "British",
+                    "Army",
+                    ",",
+                    "and",
+                    "then",
+                    "completed",
+                    "his",
+                    "undergraduate",
+                    "studies",
+                    "in",
+                    "biology",
+                    ",",
+                    "graduating",
+                    "with",
+                    "an",
+                    "Ordinary",
+                    "degree",
+                    "at",
+                    "Bangor"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "British",
+                    "Army",
+                    ",",
+                    "and",
+                    "then",
+                    "completed",
+                    "his",
+                    "undergraduate",
+                    "studies",
+                    "in",
+                    "biology",
+                    ",",
+                    "graduating",
+                    "with",
+                    "an",
+                    "Ordinary",
+                    "degree",
+                    "at",
+                    "Bangor"
+                ]
             ]
         },
         {
@@ -741,6 +1282,48 @@
                         0.9801980198019802,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "Tenth",
+                    "IASTED",
+                    "International",
+                    "Conference",
+                    "on",
+                    "Parallel",
+                    "and",
+                    "Distributed",
+                    "Computing",
+                    "and",
+                    "Systems",
+                    "(",
+                    "PDCS'9"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "Tenth",
+                    "IASTED",
+                    "International",
+                    "Conference",
+                    "on",
+                    "Parallel",
+                    "and",
+                    "Distributed",
+                    "Computing",
+                    "and",
+                    "Systems",
+                    "(",
+                    "PDCS'9"
                 ]
             ]
         },
@@ -804,6 +1387,39 @@
                         0.6949152542372882
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.5253819788848316,
+                    0.8421052631578948
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "1960s",
+                    "and",
+                    "1970s",
+                    ",",
+                    "best",
+                    "known",
+                    "for",
+                    "her",
+                    "self-written"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "1960s",
+                    "and",
+                    "1970s,",
+                    "best",
+                    "known",
+                    "for",
+                    "her",
+                    "self-written"
+                ]
             ]
         },
         {
@@ -865,6 +1481,34 @@
                         1.0,
                         1.0
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "Politburo,",
+                    "while",
+                    "Grishin,",
+                    "Demichev,",
+                    "Kunayev,",
+                    "Masherov"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "Politburo,",
+                    "while",
+                    "Grishin,",
+                    "Demichev,",
+                    "Kunayev,",
+                    "Masherov"
                 ]
             ]
         },
@@ -928,6 +1572,56 @@
                         0.9047619047619048
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "frontiers",
+                    "of",
+                    "gender",
+                    "roles",
+                    "and",
+                    "creating",
+                    "electropop",
+                    "beats",
+                    "with",
+                    "hyper",
+                    "-",
+                    "sexual",
+                    ",",
+                    "gender",
+                    "-",
+                    "bending",
+                    "and"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "frontiers",
+                    "of",
+                    "gender",
+                    "roles",
+                    "and",
+                    "creating",
+                    "electropop",
+                    "beats",
+                    "with",
+                    "hyper",
+                    "-",
+                    "sexual",
+                    ",",
+                    "gender",
+                    "-",
+                    "bending",
+                    "and"
+                ]
             ]
         },
         {
@@ -989,6 +1683,62 @@
                         0.7857142857142857,
                         0.9230769230769231
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "University",
+                    "of",
+                    "Michigan",
+                    ",",
+                    "where",
+                    "his",
+                    "team",
+                    "won",
+                    "three",
+                    "Big",
+                    "Ten",
+                    "Conference",
+                    "titles",
+                    "and",
+                    "participated",
+                    "in",
+                    "two",
+                    "NCAA",
+                    "Final",
+                    "F"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "University",
+                    "of",
+                    "Michigan",
+                    ",",
+                    "where",
+                    "his",
+                    "team",
+                    "won",
+                    "three",
+                    "Big",
+                    "Ten",
+                    "Conference",
+                    "titles",
+                    "and",
+                    "participated",
+                    "in",
+                    "two",
+                    "NCAA",
+                    "Final",
+                    "F"
                 ]
             ]
         },
@@ -1052,6 +1802,58 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "death",
+                    "of",
+                    "his",
+                    "second",
+                    "wife",
+                    "Audrey",
+                    "(",
+                    "n\u00e9e",
+                    "Adamson",
+                    ")",
+                    ",",
+                    "to",
+                    "whom",
+                    "he",
+                    "had",
+                    "been",
+                    "married",
+                    "for"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "death",
+                    "of",
+                    "his",
+                    "second",
+                    "wife",
+                    "Audrey",
+                    "(",
+                    "n\u00e9e",
+                    "Adamson",
+                    ")",
+                    ",",
+                    "to",
+                    "whom",
+                    "he",
+                    "had",
+                    "been",
+                    "married",
+                    "for"
+                ]
             ]
         },
         {
@@ -1113,6 +1915,28 @@
                         0.9801980198019802,
                         1.0
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "a",
+                    "href",
+                    "=",
+                    "\"https://en.wikipedia.org/wiki/Kahaani_Hamaaray_Mahaabha"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "a",
+                    "href",
+                    "=",
+                    "\"https://en.wikipedia.org/wiki/Kahaani_Hamaaray_Mahaabha"
                 ]
             ]
         },
@@ -1176,6 +2000,52 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "the",
+                    "Australian",
+                    "Grand",
+                    "Prix",
+                    "held",
+                    "in",
+                    "Melbourne,",
+                    "with",
+                    "F1",
+                    "sessions",
+                    "scheduled",
+                    "from",
+                    "Friday,",
+                    "13",
+                    "to",
+                    "Sunday"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "the",
+                    "Australian",
+                    "Grand",
+                    "Prix",
+                    "held",
+                    "in",
+                    "Melbourne,",
+                    "with",
+                    "F1",
+                    "sessions",
+                    "scheduled",
+                    "from",
+                    "Friday,",
+                    "13",
+                    "to",
+                    "Sunday"
+                ]
             ]
         },
         {
@@ -1237,6 +2107,40 @@
                         0.9801980198019802,
                         0.8867924528301887
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "a",
+                    "circulation",
+                    "of",
+                    "12,000",
+                    "and",
+                    "is",
+                    "read",
+                    "by",
+                    "some",
+                    "30,00"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "a",
+                    "circulation",
+                    "of",
+                    "12,000",
+                    "and",
+                    "is",
+                    "read",
+                    "by",
+                    "some",
+                    "30,00"
                 ]
             ]
         }

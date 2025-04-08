@@ -60,6 +60,52 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "professional",
+                    "footballer",
+                    ",",
+                    "currently",
+                    "playing",
+                    "for",
+                    "Conference",
+                    "South",
+                    "side",
+                    "Havant",
+                    "&",
+                    "Waterlooville",
+                    ",",
+                    "where"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "professional",
+                    "footballer",
+                    ",",
+                    "currently",
+                    "playing",
+                    "for",
+                    "Conference",
+                    "South",
+                    "side",
+                    "Havant",
+                    "&",
+                    "Waterlooville",
+                    ",",
+                    "where"
+                ]
             ]
         },
         {
@@ -121,6 +167,62 @@
                         0.9047619047619048,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "why",
+                    "they",
+                    "must",
+                    "be",
+                    "restarted",
+                    "occasionally",
+                    "to",
+                    "remove",
+                    "resident",
+                    "errors",
+                    "and",
+                    "memory",
+                    "leaks",
+                    "that",
+                    "have",
+                    "built",
+                    "up",
+                    "due",
+                    "to",
+                    "software"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "why",
+                    "they",
+                    "must",
+                    "be",
+                    "restarted",
+                    "occasionally",
+                    "to",
+                    "remove",
+                    "resident",
+                    "errors",
+                    "and",
+                    "memory",
+                    "leaks",
+                    "that",
+                    "have",
+                    "built",
+                    "up",
+                    "due",
+                    "to",
+                    "software"
                 ]
             ]
         },
@@ -184,6 +286,62 @@
                         0.9047619047619048
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "said",
+                    ",",
+                    "to",
+                    "honour",
+                    "a",
+                    "promise",
+                    "she",
+                    "had",
+                    "made",
+                    "to",
+                    "her",
+                    "mother",
+                    "that",
+                    "she",
+                    "would",
+                    "one",
+                    "day",
+                    "sing",
+                    "in",
+                    "Italy"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "said",
+                    ",",
+                    "to",
+                    "honour",
+                    "a",
+                    "promise",
+                    "she",
+                    "had",
+                    "made",
+                    "to",
+                    "her",
+                    "mother",
+                    "that",
+                    "she",
+                    "would",
+                    "one",
+                    "day",
+                    "sing",
+                    "in",
+                    "Italy"
+                ]
             ]
         },
         {
@@ -245,6 +403,60 @@
                         0.9801980198019802,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "All",
+                    "-",
+                    "Star",
+                    "and",
+                    "former",
+                    "MVP",
+                    "shortstop",
+                    ",",
+                    "who",
+                    "plays",
+                    "for",
+                    "the",
+                    "Philadelphia",
+                    "Phillies",
+                    "of",
+                    "Major",
+                    "League",
+                    "Baseball"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "All",
+                    "-",
+                    "Star",
+                    "and",
+                    "former",
+                    "MVP",
+                    "shortstop",
+                    ",",
+                    "who",
+                    "plays",
+                    "for",
+                    "the",
+                    "Philadelphia",
+                    "Phillies",
+                    "of",
+                    "Major",
+                    "League",
+                    "Baseball"
                 ]
             ]
         },
@@ -308,6 +520,62 @@
                         0.8867924528301887
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "also",
+                    "ROC",
+                    "nationals",
+                    "under",
+                    "ROC",
+                    "law",
+                    ",",
+                    "while",
+                    "needing",
+                    "to",
+                    "restrict",
+                    "resources",
+                    "in",
+                    "Taiwan",
+                    "to",
+                    "its",
+                    "long",
+                    "-",
+                    "term",
+                    "residents"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "also",
+                    "ROC",
+                    "nationals",
+                    "under",
+                    "ROC",
+                    "law",
+                    ",",
+                    "while",
+                    "needing",
+                    "to",
+                    "restrict",
+                    "resources",
+                    "in",
+                    "Taiwan",
+                    "to",
+                    "its",
+                    "long",
+                    "-",
+                    "term",
+                    "residents"
+                ]
             ]
         },
         {
@@ -369,6 +637,60 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "well",
+                    "known",
+                    "inside",
+                    "the",
+                    "company",
+                    "as",
+                    "being",
+                    "rude",
+                    ",",
+                    "arrogant",
+                    ",",
+                    "and",
+                    "having",
+                    "egos",
+                    "the",
+                    "size",
+                    "of",
+                    "the",
+                    "E"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "well",
+                    "known",
+                    "inside",
+                    "the",
+                    "company",
+                    "as",
+                    "being",
+                    "rude",
+                    ",",
+                    "arrogant",
+                    ",",
+                    "and",
+                    "having",
+                    "egos",
+                    "the",
+                    "size",
+                    "of",
+                    "the",
+                    "E"
                 ]
             ]
         },
@@ -432,6 +754,56 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "one",
+                    "of",
+                    "the",
+                    "few",
+                    "Fortune",
+                    "500",
+                    "CEOs",
+                    "to",
+                    "have",
+                    "worked",
+                    "his",
+                    "way",
+                    "from",
+                    "the",
+                    "very",
+                    "bottom",
+                    "to"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "one",
+                    "of",
+                    "the",
+                    "few",
+                    "Fortune",
+                    "500",
+                    "CEOs",
+                    "to",
+                    "have",
+                    "worked",
+                    "his",
+                    "way",
+                    "from",
+                    "the",
+                    "very",
+                    "bottom",
+                    "to"
+                ]
             ]
         },
         {
@@ -493,6 +865,60 @@
                         0.8867924528301887,
                         0.9230769230769231
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "afraid",
+                    "of",
+                    "water",
+                    "--",
+                    "so",
+                    "they",
+                    "drink",
+                    "only",
+                    "wine",
+                    "''",
+                    ")",
+                    ",",
+                    "a",
+                    "club",
+                    "led",
+                    "by",
+                    "the",
+                    "journalist",
+                    "\u00c9mile"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "afraid",
+                    "of",
+                    "water",
+                    "--",
+                    "so",
+                    "they",
+                    "drink",
+                    "only",
+                    "wine",
+                    "''",
+                    ")",
+                    ",",
+                    "a",
+                    "club",
+                    "led",
+                    "by",
+                    "the",
+                    "journalist",
+                    "\u00c9mile"
                 ]
             ]
         },
@@ -556,6 +982,56 @@
                         0.9047619047619048
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "one",
+                    "of",
+                    "the",
+                    "worst",
+                    "in",
+                    "the",
+                    "country",
+                    "with",
+                    "an",
+                    "Afghan",
+                    "Headmistress",
+                    "and",
+                    "a",
+                    "severe",
+                    "case",
+                    "of",
+                    "Ight"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "one",
+                    "of",
+                    "the",
+                    "worst",
+                    "in",
+                    "the",
+                    "country",
+                    "with",
+                    "an",
+                    "Afghan",
+                    "Headmistress",
+                    "and",
+                    "a",
+                    "severe",
+                    "case",
+                    "of",
+                    "Ight"
+                ]
             ]
         },
         {
@@ -617,6 +1093,56 @@
                         0.941747572815534,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "noted",
+                    "for",
+                    "founding",
+                    "the",
+                    "Order",
+                    "of",
+                    "the",
+                    "Missionary",
+                    "Conceptionists",
+                    "of",
+                    "Hope",
+                    "and",
+                    "her",
+                    "advocacy",
+                    "of",
+                    "the",
+                    "equality"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "noted",
+                    "for",
+                    "founding",
+                    "the",
+                    "Order",
+                    "of",
+                    "the",
+                    "Missionary",
+                    "Conceptionists",
+                    "of",
+                    "Hope",
+                    "and",
+                    "her",
+                    "advocacy",
+                    "of",
+                    "the",
+                    "equality"
                 ]
             ]
         },
@@ -680,6 +1206,62 @@
                         0.8867924528301887
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Canadian",
+                    "professional",
+                    "ice",
+                    "hockey",
+                    "centre",
+                    "and",
+                    "captain",
+                    "of",
+                    "the",
+                    "Philadelphia",
+                    "Flyers",
+                    "of",
+                    "the",
+                    "National",
+                    "Hockey",
+                    "League",
+                    "(",
+                    "NHL",
+                    ")"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Canadian",
+                    "professional",
+                    "ice",
+                    "hockey",
+                    "centre",
+                    "and",
+                    "captain",
+                    "of",
+                    "the",
+                    "Philadelphia",
+                    "Flyers",
+                    "of",
+                    "the",
+                    "National",
+                    "Hockey",
+                    "League",
+                    "(",
+                    "NHL",
+                    ")"
+                ]
             ]
         },
         {
@@ -741,6 +1323,56 @@
                         0.941747572815534,
                         0.9047619047619048
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "best",
+                    "remembered",
+                    "for",
+                    "building",
+                    "the",
+                    "impressive",
+                    "family",
+                    "home",
+                    ",",
+                    "Saunders",
+                    "Grove",
+                    ",",
+                    "near",
+                    "Baltinglass",
+                    ",",
+                    "County",
+                    "Wicklow"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "best",
+                    "remembered",
+                    "for",
+                    "building",
+                    "the",
+                    "impressive",
+                    "family",
+                    "home",
+                    ",",
+                    "Saunders",
+                    "Grove",
+                    ",",
+                    "near",
+                    "Baltinglass",
+                    ",",
+                    "County",
+                    "Wicklow"
                 ]
             ]
         },
@@ -804,6 +1436,56 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "founder",
+                    "of",
+                    "The",
+                    "International",
+                    "Conference",
+                    "on",
+                    "Coasts",
+                    ",",
+                    "Ports",
+                    "and",
+                    "Marine",
+                    "Structures",
+                    "(",
+                    "ICOPMAS",
+                    ")",
+                    "("
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "founder",
+                    "of",
+                    "The",
+                    "International",
+                    "Conference",
+                    "on",
+                    "Coasts",
+                    ",",
+                    "Ports",
+                    "and",
+                    "Marine",
+                    "Structures",
+                    "(",
+                    "ICOPMAS",
+                    ")",
+                    "("
+                ]
             ]
         },
         {
@@ -865,6 +1547,60 @@
                         0.9047619047619048,
                         0.8518518518518519
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.9457416090031758,
+                    0.9500000000000001
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "honoured",
+                    "one",
+                    "in",
+                    "Fiji",
+                    "today",
+                    ",",
+                    "as",
+                    "many",
+                    "of",
+                    "the",
+                    "country",
+                    "'s",
+                    "leading",
+                    "figures",
+                    "have",
+                    "been",
+                    "direct",
+                    "descendants"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "an",
+                    "honoured",
+                    "one",
+                    "in",
+                    "Fiji",
+                    "today",
+                    ",",
+                    "as",
+                    "many",
+                    "of",
+                    "the",
+                    "country",
+                    "'s",
+                    "leading",
+                    "figures",
+                    "have",
+                    "been",
+                    "direct",
+                    "descendants"
                 ]
             ]
         },
@@ -928,6 +1664,56 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "three-time",
+                    "Olympic",
+                    "champion",
+                    "and",
+                    "nine-time",
+                    "World",
+                    "and",
+                    "European",
+                    "champion",
+                    "in",
+                    "canoeing",
+                    "and",
+                    "a",
+                    "politician",
+                    "from",
+                    "Belarus"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "three-time",
+                    "Olympic",
+                    "champion",
+                    "and",
+                    "nine-time",
+                    "World",
+                    "and",
+                    "European",
+                    "champion",
+                    "in",
+                    "canoeing",
+                    "and",
+                    "a",
+                    "politician",
+                    "from",
+                    "Belarus"
+                ]
             ]
         },
         {
@@ -989,6 +1775,62 @@
                         0.9801980198019802,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "only",
+                    "one",
+                    "example",
+                    "of",
+                    "the",
+                    "apt",
+                    "and",
+                    "excellent",
+                    "casting",
+                    "of",
+                    "a",
+                    "great",
+                    "black",
+                    "ensemble",
+                    ";",
+                    "most",
+                    "of",
+                    "whom",
+                    "came",
+                    "from"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "only",
+                    "one",
+                    "example",
+                    "of",
+                    "the",
+                    "apt",
+                    "and",
+                    "excellent",
+                    "casting",
+                    "of",
+                    "a",
+                    "great",
+                    "black",
+                    "ensemble",
+                    ";",
+                    "most",
+                    "of",
+                    "whom",
+                    "came",
+                    "from"
                 ]
             ]
         },
@@ -1052,6 +1894,60 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "professional",
+                    "ice",
+                    "hockey",
+                    "player",
+                    "who",
+                    "formerly",
+                    "played",
+                    "center",
+                    "and",
+                    "left",
+                    "wing",
+                    "for",
+                    "the",
+                    "National",
+                    "Hockey",
+                    "League",
+                    "'s",
+                    "New"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "professional",
+                    "ice",
+                    "hockey",
+                    "player",
+                    "who",
+                    "formerly",
+                    "played",
+                    "center",
+                    "and",
+                    "left",
+                    "wing",
+                    "for",
+                    "the",
+                    "National",
+                    "Hockey",
+                    "League",
+                    "'s",
+                    "New"
+                ]
             ]
         },
         {
@@ -1113,6 +2009,48 @@
                         0.9801980198019802,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "Right",
+                    "Reverend",
+                    "Dr",
+                    "Nicholas",
+                    "Stewart",
+                    "Reade,",
+                    "BA,",
+                    "the",
+                    "8th",
+                    "Bishop",
+                    "of",
+                    "Blackburn,"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "Right",
+                    "Reverend",
+                    "Dr",
+                    "Nicholas",
+                    "Stewart",
+                    "Reade,",
+                    "BA,",
+                    "the",
+                    "8th",
+                    "Bishop",
+                    "of",
+                    "Blackburn,"
                 ]
             ]
         },
@@ -1176,6 +2114,60 @@
                         0.8518518518518519
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.9457416090031758,
+                    0.9500000000000001
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "gathered",
+                    "around",
+                    "a",
+                    "table",
+                    ",",
+                    "studying",
+                    "a",
+                    "plan",
+                    "of",
+                    "fortifications",
+                    ",",
+                    "in",
+                    "flattering",
+                    "flashy",
+                    "clothes",
+                    ",",
+                    "according",
+                    "to",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "gathered",
+                    "around",
+                    "a",
+                    "table",
+                    ",",
+                    "studying",
+                    "a",
+                    "plan",
+                    "of",
+                    "fortifications",
+                    ",",
+                    "in",
+                    "flattering",
+                    "flashy",
+                    "clothes",
+                    ",",
+                    "according",
+                    "to",
+                    "the"
+                ]
             ]
         },
         {
@@ -1237,6 +2229,52 @@
                         0.9801980198019802,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "requested",
+                    "to",
+                    "do",
+                    "so",
+                    "by",
+                    "the",
+                    "United",
+                    "States",
+                    "Environmental",
+                    "Protection",
+                    "Agency",
+                    "(EPA),",
+                    "states,",
+                    "or",
+                    "individuals."
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "requested",
+                    "to",
+                    "do",
+                    "so",
+                    "by",
+                    "the",
+                    "United",
+                    "States",
+                    "Environmental",
+                    "Protection",
+                    "Agency",
+                    "(EPA),",
+                    "states,",
+                    "or",
+                    "individuals."
                 ]
             ]
         },
@@ -1300,6 +2338,54 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "happening",
+                    "when",
+                    "Jonesy",
+                    "finds",
+                    "a",
+                    "disoriented",
+                    "and",
+                    "delirious",
+                    "stranger",
+                    "wandering",
+                    "near",
+                    "the",
+                    "lodge",
+                    "during",
+                    "a",
+                    "bl"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "happening",
+                    "when",
+                    "Jonesy",
+                    "finds",
+                    "a",
+                    "disoriented",
+                    "and",
+                    "delirious",
+                    "stranger",
+                    "wandering",
+                    "near",
+                    "the",
+                    "lodge",
+                    "during",
+                    "a",
+                    "bl"
+                ]
             ]
         },
         {
@@ -1361,6 +2447,54 @@
                         0.8867924528301887,
                         0.3333333333333333
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.9351334836242398,
+                    0.9411764705882353
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "interpreted",
+                    "by",
+                    "some",
+                    "browsers",
+                    "as",
+                    "representing",
+                    "the",
+                    "characters",
+                    "mapped",
+                    "to",
+                    "bytes",
+                    "80",
+                    "--",
+                    "9F",
+                    "in",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "interpreted",
+                    "by",
+                    "some",
+                    "browsers",
+                    "as",
+                    "representing",
+                    "the",
+                    "characters",
+                    "mapped",
+                    "to",
+                    "bytes",
+                    "80",
+                    "--",
+                    "9F",
+                    "in",
+                    "the"
                 ]
             ]
         },
@@ -1424,6 +2558,60 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "considered",
+                    "to",
+                    "belong",
+                    "to",
+                    "a",
+                    "holistic",
+                    "paradigm",
+                    ",",
+                    "commonly",
+                    "seen",
+                    "as",
+                    "an",
+                    "alternative",
+                    "to",
+                    "mainstream",
+                    "reductive",
+                    "science",
+                    "in",
+                    "certain"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "considered",
+                    "to",
+                    "belong",
+                    "to",
+                    "a",
+                    "holistic",
+                    "paradigm",
+                    ",",
+                    "commonly",
+                    "seen",
+                    "as",
+                    "an",
+                    "alternative",
+                    "to",
+                    "mainstream",
+                    "reductive",
+                    "science",
+                    "in",
+                    "certain"
+                ]
             ]
         },
         {
@@ -1485,6 +2673,56 @@
                         0.9047619047619048,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "derivatives",
+                    "of",
+                    "the",
+                    "Pantah",
+                    ",",
+                    "which",
+                    "employed",
+                    "a",
+                    "set",
+                    "of",
+                    "revolving",
+                    "cams",
+                    "to",
+                    "actuate",
+                    "the",
+                    "engine",
+                    "'s"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "derivatives",
+                    "of",
+                    "the",
+                    "Pantah",
+                    ",",
+                    "which",
+                    "employed",
+                    "a",
+                    "set",
+                    "of",
+                    "revolving",
+                    "cams",
+                    "to",
+                    "actuate",
+                    "the",
+                    "engine",
+                    "'s"
                 ]
             ]
         },
@@ -1548,6 +2786,54 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "largest",
+                    "industrial",
+                    "labor",
+                    "union",
+                    "in",
+                    "North",
+                    "America,",
+                    "and",
+                    "claims",
+                    "over",
+                    "1.2",
+                    "million",
+                    "active",
+                    "and",
+                    "retired"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "largest",
+                    "industrial",
+                    "labor",
+                    "union",
+                    "in",
+                    "North",
+                    "America,",
+                    "and",
+                    "claims",
+                    "over",
+                    "1.2",
+                    "million",
+                    "active",
+                    "and",
+                    "retired"
+                ]
             ]
         },
         {
@@ -1609,6 +2895,62 @@
                         0.6949152542372882,
                         0.8181818181818182
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.948543837069451,
+                    0.9523809523809523
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "born",
+                    ",",
+                    "and",
+                    "the",
+                    "parents",
+                    "decide",
+                    "to",
+                    "move",
+                    "the",
+                    "older",
+                    "child",
+                    "into",
+                    "another",
+                    "larger",
+                    "bedroom",
+                    ",",
+                    "if",
+                    "one",
+                    "should",
+                    "be"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "born",
+                    ",",
+                    "and",
+                    "the",
+                    "parents",
+                    "decide",
+                    "to",
+                    "move",
+                    "the",
+                    "older",
+                    "child",
+                    "into",
+                    "another",
+                    "larger",
+                    "bedroom",
+                    ",",
+                    "if",
+                    "one",
+                    "should",
+                    "be"
                 ]
             ]
         },
@@ -1672,6 +3014,60 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "narrator",
+                    "/",
+                    "producer",
+                    "for",
+                    "the",
+                    "North",
+                    "edition",
+                    "of",
+                    "''",
+                    "STV",
+                    "News",
+                    "Review",
+                    "''",
+                    ",",
+                    "the",
+                    "weekly",
+                    "news",
+                    "programme"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "narrator",
+                    "/",
+                    "producer",
+                    "for",
+                    "the",
+                    "North",
+                    "edition",
+                    "of",
+                    "''",
+                    "STV",
+                    "News",
+                    "Review",
+                    "''",
+                    ",",
+                    "the",
+                    "weekly",
+                    "news",
+                    "programme"
+                ]
             ]
         },
         {
@@ -1733,6 +3129,58 @@
                         0.9230769230769231,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Sri",
+                    "Lankan",
+                    "military",
+                    "leader",
+                    "who",
+                    "was",
+                    "the",
+                    "first",
+                    "Sri",
+                    "Lankan",
+                    "Army",
+                    "officer",
+                    "to",
+                    "be",
+                    "promoted",
+                    "to",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Sri",
+                    "Lankan",
+                    "military",
+                    "leader",
+                    "who",
+                    "was",
+                    "the",
+                    "first",
+                    "Sri",
+                    "Lankan",
+                    "Army",
+                    "officer",
+                    "to",
+                    "be",
+                    "promoted",
+                    "to",
+                    "the"
                 ]
             ]
         },
@@ -1796,6 +3244,62 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "transformer",
+                    "in",
+                    "which",
+                    "the",
+                    "primary",
+                    "and",
+                    "secondary",
+                    "coils",
+                    "have",
+                    "part",
+                    "of",
+                    ",",
+                    "or",
+                    "all",
+                    "of",
+                    "their",
+                    "turns",
+                    "in",
+                    "common"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "transformer",
+                    "in",
+                    "which",
+                    "the",
+                    "primary",
+                    "and",
+                    "secondary",
+                    "coils",
+                    "have",
+                    "part",
+                    "of",
+                    ",",
+                    "or",
+                    "all",
+                    "of",
+                    "their",
+                    "turns",
+                    "in",
+                    "common"
+                ]
             ]
         },
         {
@@ -1857,6 +3361,56 @@
                         0.9607843137254902,
                         0.9047619047619048
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "traditional",
+                    "Russian",
+                    "nicknames",
+                    "for",
+                    "a",
+                    "bear",
+                    "(",
+                    "and",
+                    "the",
+                    "bear",
+                    "historically",
+                    "symbolizes",
+                    "Russia",
+                    ",",
+                    "and",
+                    "also",
+                    "symbolizes"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "traditional",
+                    "Russian",
+                    "nicknames",
+                    "for",
+                    "a",
+                    "bear",
+                    "(",
+                    "and",
+                    "the",
+                    "bear",
+                    "historically",
+                    "symbolizes",
+                    "Russia",
+                    ",",
+                    "and",
+                    "also",
+                    "symbolizes"
                 ]
             ]
         },
@@ -1920,6 +3474,58 @@
                         1.0
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "not",
+                    "endangered",
+                    "from",
+                    "rockfalls",
+                    "caused",
+                    "by",
+                    "drill",
+                    "movement,",
+                    "despite",
+                    "the",
+                    "fact",
+                    "that",
+                    "the",
+                    "drill",
+                    "screw",
+                    "rotates",
+                    "in",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "not",
+                    "endangered",
+                    "from",
+                    "rockfalls",
+                    "caused",
+                    "by",
+                    "drill",
+                    "movement,",
+                    "despite",
+                    "the",
+                    "fact",
+                    "that",
+                    "the",
+                    "drill",
+                    "screw",
+                    "rotates",
+                    "in",
+                    "the"
+                ]
             ]
         },
         {
@@ -1981,6 +3587,60 @@
                         0.9607843137254902,
                         0.7391304347826086
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.7643838122940672,
+                    0.9
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "pedestrian",
+                    "and",
+                    "bicycle",
+                    "double",
+                    "Compression",
+                    "arch",
+                    "suspended-deck",
+                    "bridge",
+                    "south",
+                    "of",
+                    "Lake",
+                    "Shore",
+                    "Boulevard",
+                    "West",
+                    "in",
+                    "Toronto",
+                    ","
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "pedestrian",
+                    "and",
+                    "bicycle",
+                    "double",
+                    "Compression",
+                    "arch",
+                    "suspended",
+                    "-",
+                    "deck",
+                    "bridge",
+                    "south",
+                    "of",
+                    "Lake",
+                    "Shore",
+                    "Boulevard",
+                    "West",
+                    "in",
+                    "Toronto",
+                    ","
                 ]
             ]
         },
@@ -2044,6 +3704,58 @@
                         0.9047619047619048
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    ",",
+                    "only",
+                    "orderings",
+                    "can",
+                    "be",
+                    "observed",
+                    ",",
+                    "and",
+                    "therefore",
+                    "no",
+                    "measurement",
+                    "of",
+                    "utility",
+                    "independent",
+                    "of",
+                    "these",
+                    "orderings",
+                    "has"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    ",",
+                    "only",
+                    "orderings",
+                    "can",
+                    "be",
+                    "observed",
+                    ",",
+                    "and",
+                    "therefore",
+                    "no",
+                    "measurement",
+                    "of",
+                    "utility",
+                    "independent",
+                    "of",
+                    "these",
+                    "orderings",
+                    "has"
+                ]
             ]
         },
         {
@@ -2105,6 +3817,52 @@
                         0.35135135135135137,
                         0.21212121212121213
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8153551038173115,
+                    0.9375
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "English",
+                    "translation",
+                    "of",
+                    "the",
+                    "Christian",
+                    "Bible",
+                    "for",
+                    "the",
+                    "Church",
+                    "of",
+                    "England,",
+                    "begun",
+                    "in",
+                    "1604"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "English",
+                    "translation",
+                    "of",
+                    "the",
+                    "Christian",
+                    "Bible",
+                    "for",
+                    "the",
+                    "Church",
+                    "of",
+                    "England",
+                    "begun",
+                    "in",
+                    "1604"
                 ]
             ]
         },
@@ -2168,6 +3926,52 @@
                         0.8518518518518519
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "grave",
+                    "stone",
+                    "of",
+                    "Carausius",
+                    ",",
+                    "a",
+                    "Roman",
+                    "military",
+                    "commander",
+                    "who",
+                    "usurped",
+                    "power",
+                    "in",
+                    "28"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "grave",
+                    "stone",
+                    "of",
+                    "Carausius",
+                    ",",
+                    "a",
+                    "Roman",
+                    "military",
+                    "commander",
+                    "who",
+                    "usurped",
+                    "power",
+                    "in",
+                    "28"
+                ]
             ]
         },
         {
@@ -2229,6 +4033,58 @@
                         0.9801980198019802,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "currently",
+                    "based",
+                    "in",
+                    "the",
+                    "heart",
+                    "of",
+                    "the",
+                    "Asia",
+                    "-",
+                    "Pacific",
+                    "region",
+                    ",",
+                    "Martinsons",
+                    "exemplifies",
+                    "an",
+                    "emerging",
+                    "generation",
+                    "of"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "currently",
+                    "based",
+                    "in",
+                    "the",
+                    "heart",
+                    "of",
+                    "the",
+                    "Asia",
+                    "-",
+                    "Pacific",
+                    "region",
+                    ",",
+                    "Martinsons",
+                    "exemplifies",
+                    "an",
+                    "emerging",
+                    "generation",
+                    "of"
                 ]
             ]
         },
@@ -2292,6 +4148,62 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "to",
+                    "be",
+                    "sent",
+                    "to",
+                    "one",
+                    "of",
+                    "the",
+                    "Flower",
+                    "families",
+                    "in",
+                    "the",
+                    "City",
+                    "but",
+                    "quickly",
+                    "discovers",
+                    "that",
+                    "his",
+                    "escort",
+                    "has",
+                    "been"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "to",
+                    "be",
+                    "sent",
+                    "to",
+                    "one",
+                    "of",
+                    "the",
+                    "Flower",
+                    "families",
+                    "in",
+                    "the",
+                    "City",
+                    "but",
+                    "quickly",
+                    "discovers",
+                    "that",
+                    "his",
+                    "escort",
+                    "has",
+                    "been"
+                ]
             ]
         },
         {
@@ -2353,6 +4265,62 @@
                         0.9607843137254902,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "done",
+                    "by",
+                    "effects",
+                    "companies",
+                    ",",
+                    "such",
+                    "as",
+                    "that",
+                    "of",
+                    "the",
+                    "notable",
+                    "effects",
+                    "manufacturer",
+                    "and",
+                    "modifiers",
+                    "Analog",
+                    "Man",
+                    "and",
+                    "Robert",
+                    "Kee"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "done",
+                    "by",
+                    "effects",
+                    "companies",
+                    ",",
+                    "such",
+                    "as",
+                    "that",
+                    "of",
+                    "the",
+                    "notable",
+                    "effects",
+                    "manufacturer",
+                    "and",
+                    "modifiers",
+                    "Analog",
+                    "Man",
+                    "and",
+                    "Robert",
+                    "Kee"
                 ]
             ]
         },
@@ -2416,6 +4384,48 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "fully",
+                    "virtuous,",
+                    "16",
+                    "celestial",
+                    "degrees",
+                    "complete,",
+                    "self-realised",
+                    "beings",
+                    "who",
+                    "lived",
+                    "in",
+                    "complete",
+                    "harmony"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "fully",
+                    "virtuous,",
+                    "16",
+                    "celestial",
+                    "degrees",
+                    "complete,",
+                    "self-realised",
+                    "beings",
+                    "who",
+                    "lived",
+                    "in",
+                    "complete",
+                    "harmony"
+                ]
             ]
         },
         {
@@ -2477,6 +4487,60 @@
                         0.9801980198019802,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "also",
+                    "the",
+                    "Chairman",
+                    "of",
+                    "the",
+                    "Government",
+                    "Parliamentary",
+                    "Committee",
+                    "(",
+                    "GPC",
+                    ")",
+                    "for",
+                    "Ministry",
+                    "of",
+                    "Community",
+                    "Development",
+                    ",",
+                    "Youth",
+                    "and"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "also",
+                    "the",
+                    "Chairman",
+                    "of",
+                    "the",
+                    "Government",
+                    "Parliamentary",
+                    "Committee",
+                    "(",
+                    "GPC",
+                    ")",
+                    "for",
+                    "Ministry",
+                    "of",
+                    "Community",
+                    "Development",
+                    ",",
+                    "Youth",
+                    "and"
                 ]
             ]
         },
@@ -2540,6 +4604,62 @@
                         0.9047619047619048
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Russian",
+                    "professional",
+                    "ice",
+                    "hockey",
+                    "player",
+                    "currently",
+                    "playing",
+                    "for",
+                    "the",
+                    "Washington",
+                    "Capitals",
+                    "in",
+                    "the",
+                    "National",
+                    "Hockey",
+                    "League",
+                    "(",
+                    "NHL",
+                    ")"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Russian",
+                    "professional",
+                    "ice",
+                    "hockey",
+                    "player",
+                    "currently",
+                    "playing",
+                    "for",
+                    "the",
+                    "Washington",
+                    "Capitals",
+                    "in",
+                    "the",
+                    "National",
+                    "Hockey",
+                    "League",
+                    "(",
+                    "NHL",
+                    ")"
+                ]
             ]
         },
         {
@@ -2601,6 +4721,56 @@
                         0.8348623853211009,
                         0.8691588785046729
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "11th",
+                    "most",
+                    "Republican",
+                    "district",
+                    "in",
+                    "the",
+                    "South",
+                    "and",
+                    "the",
+                    "most",
+                    "Republican",
+                    "district",
+                    "in",
+                    "the",
+                    "state",
+                    "outside"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "11th",
+                    "most",
+                    "Republican",
+                    "district",
+                    "in",
+                    "the",
+                    "South",
+                    "and",
+                    "the",
+                    "most",
+                    "Republican",
+                    "district",
+                    "in",
+                    "the",
+                    "state",
+                    "outside"
                 ]
             ]
         },
@@ -2664,6 +4834,54 @@
                         0.8867924528301887
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "one",
+                    "of",
+                    "the",
+                    "westernmost",
+                    "places",
+                    "in",
+                    "Cuba",
+                    ",",
+                    "100",
+                    "km",
+                    "far",
+                    "from",
+                    "Cape",
+                    "San",
+                    "Antonio",
+                    ","
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "one",
+                    "of",
+                    "the",
+                    "westernmost",
+                    "places",
+                    "in",
+                    "Cuba",
+                    ",",
+                    "100",
+                    "km",
+                    "far",
+                    "from",
+                    "Cape",
+                    "San",
+                    "Antonio",
+                    ","
+                ]
             ]
         },
         {
@@ -2725,6 +4943,60 @@
                         0.8181818181818182,
                         0.7857142857142857
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "some",
+                    "of",
+                    "the",
+                    "activities",
+                    "conducted",
+                    "to",
+                    "keep",
+                    "abreast",
+                    "of",
+                    "the",
+                    "dynamic",
+                    "'",
+                    "real",
+                    "world",
+                    "'",
+                    "of",
+                    "hotels",
+                    ",",
+                    "food"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "some",
+                    "of",
+                    "the",
+                    "activities",
+                    "conducted",
+                    "to",
+                    "keep",
+                    "abreast",
+                    "of",
+                    "the",
+                    "dynamic",
+                    "'",
+                    "real",
+                    "world",
+                    "'",
+                    "of",
+                    "hotels",
+                    ",",
+                    "food"
                 ]
             ]
         },
@@ -2788,6 +5060,60 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "named",
+                    ",",
+                    "best",
+                    "known",
+                    "for",
+                    "its",
+                    "continental",
+                    "cuisine",
+                    "and",
+                    "formerly",
+                    "as",
+                    "the",
+                    "musical",
+                    "home",
+                    "of",
+                    "Tony",
+                    "Bennett",
+                    "'s",
+                    "first"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "named",
+                    ",",
+                    "best",
+                    "known",
+                    "for",
+                    "its",
+                    "continental",
+                    "cuisine",
+                    "and",
+                    "formerly",
+                    "as",
+                    "the",
+                    "musical",
+                    "home",
+                    "of",
+                    "Tony",
+                    "Bennett",
+                    "'s",
+                    "first"
+                ]
             ]
         },
         {
@@ -2849,6 +5175,60 @@
                         0.9047619047619048,
                         0.8348623853211009
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "not",
+                    "aware",
+                    "they",
+                    "can't",
+                    "breathe",
+                    "underwater",
+                    ",",
+                    "collectively",
+                    "called",
+                    "mushrooms",
+                    ",",
+                    "occur",
+                    "in",
+                    "other",
+                    "orders",
+                    "of",
+                    "the",
+                    "class",
+                    "Ag"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "not",
+                    "aware",
+                    "they",
+                    "can't",
+                    "breathe",
+                    "underwater",
+                    ",",
+                    "collectively",
+                    "called",
+                    "mushrooms",
+                    ",",
+                    "occur",
+                    "in",
+                    "other",
+                    "orders",
+                    "of",
+                    "the",
+                    "class",
+                    "Ag"
                 ]
             ]
         },
@@ -2912,6 +5292,50 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Korean",
+                    "beauty",
+                    "pageant",
+                    "titleholder",
+                    "who",
+                    "was",
+                    "crowned",
+                    "Miss",
+                    "Korea",
+                    "2010",
+                    "and",
+                    "will",
+                    "represent"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Korean",
+                    "beauty",
+                    "pageant",
+                    "titleholder",
+                    "who",
+                    "was",
+                    "crowned",
+                    "Miss",
+                    "Korea",
+                    "2010",
+                    "and",
+                    "will",
+                    "represent"
+                ]
             ]
         },
         {
@@ -2973,6 +5397,50 @@
                         0.941747572815534,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "son",
+                    "and",
+                    "heir",
+                    "of",
+                    "Arthur",
+                    "Valerian",
+                    "Wellesley",
+                    ",",
+                    "8th",
+                    "Duke",
+                    "of",
+                    "Wellington",
+                    ","
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "son",
+                    "and",
+                    "heir",
+                    "of",
+                    "Arthur",
+                    "Valerian",
+                    "Wellesley",
+                    ",",
+                    "8th",
+                    "Duke",
+                    "of",
+                    "Wellington",
+                    ","
                 ]
             ]
         },
@@ -3036,6 +5504,57 @@
                         0.14942528735632185
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.9459594689067654,
+                    0.972972972972973
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "artist",
+                    "best",
+                    "known",
+                    "for",
+                    "the",
+                    "controversy",
+                    "caused",
+                    "when",
+                    "he",
+                    "exhibited",
+                    "an",
+                    "emaciated",
+                    "dog",
+                    "in",
+                    "a",
+                    "gallery"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    ",",
+                    "is",
+                    "an",
+                    "artist",
+                    "best",
+                    "known",
+                    "for",
+                    "the",
+                    "controversy",
+                    "caused",
+                    "when",
+                    "he",
+                    "exhibited",
+                    "an",
+                    "emaciated",
+                    "dog",
+                    "in",
+                    "a",
+                    "gallery"
+                ]
             ]
         },
         {
@@ -3097,6 +5616,60 @@
                         1.0,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "the",
+                    "main",
+                    "sports",
+                    "played",
+                    "at",
+                    "the",
+                    "College,",
+                    "with",
+                    "a",
+                    "large",
+                    "number",
+                    "of",
+                    "students",
+                    "taking",
+                    "part",
+                    "in",
+                    "organized",
+                    "sport",
+                    "throughout"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "the",
+                    "main",
+                    "sports",
+                    "played",
+                    "at",
+                    "the",
+                    "College,",
+                    "with",
+                    "a",
+                    "large",
+                    "number",
+                    "of",
+                    "students",
+                    "taking",
+                    "part",
+                    "in",
+                    "organized",
+                    "sport",
+                    "throughout"
                 ]
             ]
         },
@@ -3160,6 +5733,59 @@
                         0.0582010582010582
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8056920633274978,
+                    0.9230769230769231
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "Enough",
+                    "''",
+                    "as",
+                    "well",
+                    "as",
+                    "several",
+                    "movie",
+                    "appearances",
+                    "and",
+                    "made",
+                    "a",
+                    "Fig",
+                    "Newton",
+                    "'s",
+                    "TV",
+                    "commercial",
+                    "with",
+                    "Vivian"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "Enough",
+                    "''",
+                    ",",
+                    "as",
+                    "well",
+                    "as",
+                    "several",
+                    "movie",
+                    "appearances",
+                    "and",
+                    "made",
+                    "a",
+                    "Fig",
+                    "Newton",
+                    "'s",
+                    "TV",
+                    "commercial",
+                    "with",
+                    "Viv"
+                ]
             ]
         },
         {
@@ -3221,6 +5847,53 @@
                         0.7543859649122807,
                         0.9230769230769231
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8702397637697912,
+                    0.9090909090909091
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "described",
+                    "only",
+                    "as",
+                    "being",
+                    "'weak'",
+                    "at",
+                    "Meggido",
+                    "and",
+                    "asks",
+                    "to",
+                    "be",
+                    "taken",
+                    "back",
+                    "to",
+                    "Jerusalem",
+                    ","
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "described",
+                    "only",
+                    "as",
+                    "being",
+                    "'weak'",
+                    "at",
+                    "Meggido",
+                    "and",
+                    "asks",
+                    "to",
+                    "be",
+                    "taken",
+                    "back",
+                    "to",
+                    "Jerusalem,"
                 ]
             ]
         },
@@ -3284,6 +5957,61 @@
                         0.14942528735632185
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8996172464584702,
+                    0.9268292682926829
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "cooperating",
+                    "agency",
+                    "of",
+                    "South",
+                    "Asia",
+                    "as",
+                    "It",
+                    "acts",
+                    "as",
+                    "a",
+                    "bridge",
+                    "between",
+                    "the",
+                    "member",
+                    "countries",
+                    "in",
+                    "the",
+                    "process"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "acts",
+                    "as",
+                    "a",
+                    "cooperating",
+                    "agency",
+                    "of",
+                    "South",
+                    "Asia",
+                    "as",
+                    "It",
+                    "acts",
+                    "as",
+                    "a",
+                    "bridge",
+                    "between",
+                    "the",
+                    "member",
+                    "countries",
+                    "in",
+                    "the",
+                    "process"
+                ]
             ]
         },
         {
@@ -3345,6 +6073,58 @@
                         0.8348623853211009,
                         0.8181818181818182
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8492326635760689,
+                    0.9473684210526315
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "inside",
+                    "Home",
+                    "Depot",
+                    "stores",
+                    ",",
+                    "with",
+                    "an",
+                    "exception",
+                    "of",
+                    "a",
+                    "Harvey",
+                    "'s",
+                    "Swiss",
+                    "Chalet",
+                    "store",
+                    "at",
+                    "the",
+                    "Vancouver"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "inside",
+                    "Home",
+                    "Depot",
+                    "stores",
+                    ",",
+                    "with",
+                    "the",
+                    "exception",
+                    "of",
+                    "a",
+                    "Harvey",
+                    "'s",
+                    "Swiss",
+                    "Chalet",
+                    "store",
+                    "at",
+                    "the",
+                    "Vancouver"
                 ]
             ]
         },
@@ -3408,6 +6188,54 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "known",
+                    "for",
+                    "their",
+                    "Jamaican",
+                    "Patois",
+                    "during",
+                    "their",
+                    "raps",
+                    ",",
+                    "which",
+                    "was",
+                    "more",
+                    "evident",
+                    "during",
+                    "the",
+                    "earlier"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "known",
+                    "for",
+                    "their",
+                    "Jamaican",
+                    "Patois",
+                    "during",
+                    "their",
+                    "raps",
+                    ",",
+                    "which",
+                    "was",
+                    "more",
+                    "evident",
+                    "during",
+                    "the",
+                    "earlier"
+                ]
             ]
         },
         {
@@ -3469,6 +6297,54 @@
                         0.9607843137254902,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "northern",
+                    "terminus",
+                    "of",
+                    "the",
+                    "western",
+                    "arm",
+                    "of",
+                    "the",
+                    "Toronto",
+                    "Transit",
+                    "Commission",
+                    "'s",
+                    "Line",
+                    "1",
+                    "Yonge"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "northern",
+                    "terminus",
+                    "of",
+                    "the",
+                    "western",
+                    "arm",
+                    "of",
+                    "the",
+                    "Toronto",
+                    "Transit",
+                    "Commission",
+                    "'s",
+                    "Line",
+                    "1",
+                    "Yonge"
                 ]
             ]
         },
@@ -3532,6 +6408,56 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "twin",
+                    "-",
+                    "engined",
+                    ",",
+                    "narrow",
+                    "-",
+                    "body",
+                    ",",
+                    "jet",
+                    "airliner",
+                    "built",
+                    "in",
+                    "the",
+                    "Soviet",
+                    "Union",
+                    "from"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "twin",
+                    "-",
+                    "engined",
+                    ",",
+                    "narrow",
+                    "-",
+                    "body",
+                    ",",
+                    "jet",
+                    "airliner",
+                    "built",
+                    "in",
+                    "the",
+                    "Soviet",
+                    "Union",
+                    "from"
+                ]
             ]
         },
         {
@@ -3593,6 +6519,56 @@
                         0.8518518518518519,
                         0.8348623853211009
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "reported",
+                    "as",
+                    "having",
+                    "killed",
+                    "at",
+                    "least",
+                    "505",
+                    "men",
+                    ",",
+                    "the",
+                    "highest",
+                    "recorded",
+                    "number",
+                    "of",
+                    "confirmed",
+                    "sniper",
+                    "kills"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "reported",
+                    "as",
+                    "having",
+                    "killed",
+                    "at",
+                    "least",
+                    "505",
+                    "men",
+                    ",",
+                    "the",
+                    "highest",
+                    "recorded",
+                    "number",
+                    "of",
+                    "confirmed",
+                    "sniper",
+                    "kills"
                 ]
             ]
         },
@@ -3656,6 +6632,62 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "more",
+                    "unique",
+                    "compared",
+                    "to",
+                    "the",
+                    "ones",
+                    "in",
+                    "most",
+                    "other",
+                    "modern",
+                    "-",
+                    "fighting",
+                    "games",
+                    "that",
+                    "were",
+                    "not",
+                    "as",
+                    "successful",
+                    "in",
+                    "sales"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "more",
+                    "unique",
+                    "compared",
+                    "to",
+                    "the",
+                    "ones",
+                    "in",
+                    "most",
+                    "other",
+                    "modern",
+                    "-",
+                    "fighting",
+                    "games",
+                    "that",
+                    "were",
+                    "not",
+                    "as",
+                    "successful",
+                    "in",
+                    "sales"
+                ]
             ]
         },
         {
@@ -3717,6 +6749,54 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Greek",
+                    "minuscule",
+                    "manuscript",
+                    "of",
+                    "the",
+                    "New",
+                    "Testament",
+                    ",",
+                    "written",
+                    "on",
+                    "purple",
+                    "parchment",
+                    ",",
+                    "dated",
+                    "palaeographically"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Greek",
+                    "minuscule",
+                    "manuscript",
+                    "of",
+                    "the",
+                    "New",
+                    "Testament",
+                    ",",
+                    "written",
+                    "on",
+                    "purple",
+                    "parchment",
+                    ",",
+                    "dated",
+                    "palaeographically"
                 ]
             ]
         },
@@ -3780,6 +6860,50 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "second",
+                    "bridge",
+                    "constructed",
+                    "at",
+                    "the",
+                    "Second",
+                    "(east)",
+                    "Narrows",
+                    "of",
+                    "Burrard",
+                    "Inlet",
+                    "in",
+                    "Vancouver,"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "second",
+                    "bridge",
+                    "constructed",
+                    "at",
+                    "the",
+                    "Second",
+                    "(east)",
+                    "Narrows",
+                    "of",
+                    "Burrard",
+                    "Inlet",
+                    "in",
+                    "Vancouver,"
+                ]
             ]
         },
         {
@@ -3841,6 +6965,58 @@
                         0.941747572815534,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "to",
+                    "bring",
+                    "the",
+                    "disparate",
+                    "elements",
+                    "of",
+                    "the",
+                    "Town",
+                    "of",
+                    "Rhinebeck",
+                    "together",
+                    "in",
+                    "a",
+                    "creative",
+                    "and",
+                    "joyful",
+                    "way",
+                    "in"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "to",
+                    "bring",
+                    "the",
+                    "disparate",
+                    "elements",
+                    "of",
+                    "the",
+                    "Town",
+                    "of",
+                    "Rhinebeck",
+                    "together",
+                    "in",
+                    "a",
+                    "creative",
+                    "and",
+                    "joyful",
+                    "way",
+                    "in"
                 ]
             ]
         },
@@ -3904,6 +7080,54 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.8282477531331041,
+                    0.9411764705882353
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "explosives",
+                    "expert",
+                    "of",
+                    "Raccoon",
+                    "Police",
+                    "Department's",
+                    "Special",
+                    "Tactics",
+                    "And",
+                    "Rescue",
+                    "Squad",
+                    "(",
+                    "STARS",
+                    ")",
+                    "and"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "explosives",
+                    "expert",
+                    "of",
+                    "Raccoon",
+                    "Police",
+                    "Department's",
+                    "Special",
+                    "Tactics",
+                    "and",
+                    "Rescue",
+                    "Squad",
+                    "(",
+                    "STARS",
+                    ")",
+                    "and"
+                ]
             ]
         },
         {
@@ -3965,6 +7189,54 @@
                         1.0,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Kosovar",
+                    "Albanian",
+                    "novelist",
+                    ",",
+                    "statesman",
+                    ",",
+                    "diplomat",
+                    "and",
+                    "former",
+                    "President",
+                    "of",
+                    "Yugoslavia",
+                    "(",
+                    "Chairman",
+                    "of"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Kosovar",
+                    "Albanian",
+                    "novelist",
+                    ",",
+                    "statesman",
+                    ",",
+                    "diplomat",
+                    "and",
+                    "former",
+                    "President",
+                    "of",
+                    "Yugoslavia",
+                    "(",
+                    "Chairman",
+                    "of"
                 ]
             ]
         },
@@ -4028,6 +7300,58 @@
                         1.0
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "known",
+                    "for",
+                    "its",
+                    "large",
+                    "number",
+                    "of",
+                    "automotive",
+                    "-",
+                    "related",
+                    "businesses,",
+                    "including",
+                    "several",
+                    "used",
+                    "car",
+                    "dealerships",
+                    "and",
+                    "many",
+                    "body"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "known",
+                    "for",
+                    "its",
+                    "large",
+                    "number",
+                    "of",
+                    "automotive",
+                    "-",
+                    "related",
+                    "businesses,",
+                    "including",
+                    "several",
+                    "used",
+                    "car",
+                    "dealerships",
+                    "and",
+                    "many",
+                    "body"
+                ]
             ]
         },
         {
@@ -4089,6 +7413,58 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "ancient",
+                    "monumental",
+                    "rock",
+                    "-",
+                    "cut",
+                    "tomb",
+                    "with",
+                    "a",
+                    "conical",
+                    "roof",
+                    "located",
+                    "in",
+                    "the",
+                    "Kidron",
+                    "Valley",
+                    "in",
+                    "Jerusalem"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "ancient",
+                    "monumental",
+                    "rock",
+                    "-",
+                    "cut",
+                    "tomb",
+                    "with",
+                    "a",
+                    "conical",
+                    "roof",
+                    "located",
+                    "in",
+                    "the",
+                    "Kidron",
+                    "Valley",
+                    "in",
+                    "Jerusalem"
                 ]
             ]
         },
@@ -4152,6 +7528,58 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "found",
+                    "in",
+                    "many",
+                    "cuisines",
+                    ";",
+                    "they",
+                    "may",
+                    "use",
+                    "regular",
+                    "flour",
+                    ",",
+                    "cornmeal",
+                    ",",
+                    "or",
+                    "a",
+                    "mix",
+                    "to",
+                    "bind"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "found",
+                    "in",
+                    "many",
+                    "cuisines",
+                    ";",
+                    "they",
+                    "may",
+                    "use",
+                    "regular",
+                    "flour",
+                    ",",
+                    "cornmeal",
+                    ",",
+                    "or",
+                    "a",
+                    "mix",
+                    "to",
+                    "bind"
+                ]
             ]
         },
         {
@@ -4213,6 +7641,62 @@
                         0.9047619047619048,
                         0.9047619047619048
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "smuggling",
+                    "on",
+                    "his",
+                    "ship",
+                    ",",
+                    "and",
+                    "promises",
+                    "him",
+                    "a",
+                    "share",
+                    "if",
+                    "he",
+                    "makes",
+                    "sure",
+                    "Chris",
+                    "does",
+                    "not",
+                    "throw",
+                    "it",
+                    "over"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "smuggling",
+                    "on",
+                    "his",
+                    "ship",
+                    ",",
+                    "and",
+                    "promises",
+                    "him",
+                    "a",
+                    "share",
+                    "if",
+                    "he",
+                    "makes",
+                    "sure",
+                    "Chris",
+                    "does",
+                    "not",
+                    "throw",
+                    "it",
+                    "over"
                 ]
             ]
         },
@@ -4276,6 +7760,62 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "poor",
+                    "communities",
+                    "and",
+                    "women",
+                    ",",
+                    "due",
+                    "to",
+                    "lack",
+                    "of",
+                    "health",
+                    "education",
+                    ",",
+                    "empowerment",
+                    ",",
+                    "awareness",
+                    "and",
+                    "lack",
+                    "of",
+                    "social",
+                    "well"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "poor",
+                    "communities",
+                    "and",
+                    "women",
+                    ",",
+                    "due",
+                    "to",
+                    "lack",
+                    "of",
+                    "health",
+                    "education",
+                    ",",
+                    "empowerment",
+                    ",",
+                    "awareness",
+                    "and",
+                    "lack",
+                    "of",
+                    "social",
+                    "well"
+                ]
             ]
         },
         {
@@ -4337,6 +7877,62 @@
                         0.8867924528301887,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "best",
+                    "known",
+                    "for",
+                    "his",
+                    "role",
+                    "in",
+                    "the",
+                    "Fast",
+                    "and",
+                    "Furious",
+                    "franchise",
+                    "as",
+                    "bass",
+                    "guitarist",
+                    "for",
+                    "rock",
+                    "band",
+                    "Eagles",
+                    "of",
+                    "Death"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "best",
+                    "known",
+                    "for",
+                    "his",
+                    "role",
+                    "in",
+                    "the",
+                    "Fast",
+                    "and",
+                    "Furious",
+                    "franchise",
+                    "as",
+                    "bass",
+                    "guitarist",
+                    "for",
+                    "rock",
+                    "band",
+                    "Eagles",
+                    "of",
+                    "Death"
                 ]
             ]
         },
@@ -4400,6 +7996,52 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "materials",
+                    "scientist",
+                    "who",
+                    ",",
+                    "with",
+                    "Alfred",
+                    "Cerezo",
+                    "and",
+                    "Terry",
+                    "Godfrey",
+                    ",",
+                    "invented",
+                    "the",
+                    "Atom-Probe"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "materials",
+                    "scientist",
+                    "who",
+                    ",",
+                    "with",
+                    "Alfred",
+                    "Cerezo",
+                    "and",
+                    "Terry",
+                    "Godfrey",
+                    ",",
+                    "invented",
+                    "the",
+                    "Atom-Probe"
+                ]
             ]
         },
         {
@@ -4461,6 +8103,62 @@
                         0.9047619047619048,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "supposed",
+                    "to",
+                    ",",
+                    "resulting",
+                    "in",
+                    "a",
+                    "run",
+                    "down",
+                    "the",
+                    "pit",
+                    "straight",
+                    "to",
+                    "the",
+                    "sound",
+                    "of",
+                    "cheers",
+                    "to",
+                    "receive",
+                    "his",
+                    "trophy"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "supposed",
+                    "to",
+                    ",",
+                    "resulting",
+                    "in",
+                    "a",
+                    "run",
+                    "down",
+                    "the",
+                    "pit",
+                    "straight",
+                    "to",
+                    "the",
+                    "sound",
+                    "of",
+                    "cheers",
+                    "to",
+                    "receive",
+                    "his",
+                    "trophy"
                 ]
             ]
         },
@@ -4524,6 +8222,58 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "hampered",
+                    "by",
+                    "the",
+                    "author",
+                    "'s",
+                    "extreme",
+                    "position",
+                    "and",
+                    "lack",
+                    "of",
+                    "investigation",
+                    "into",
+                    "what",
+                    "improves",
+                    "the",
+                    "prognosis",
+                    "of",
+                    "schizophrenia"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "hampered",
+                    "by",
+                    "the",
+                    "author",
+                    "'s",
+                    "extreme",
+                    "position",
+                    "and",
+                    "lack",
+                    "of",
+                    "investigation",
+                    "into",
+                    "what",
+                    "improves",
+                    "the",
+                    "prognosis",
+                    "of",
+                    "schizophrenia"
+                ]
             ]
         },
         {
@@ -4585,6 +8335,58 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "American",
+                    "former",
+                    "Major",
+                    "League",
+                    "Baseball",
+                    "player",
+                    ",",
+                    "later",
+                    "a",
+                    "sportscaster",
+                    "for",
+                    "the",
+                    "Milwaukee",
+                    "Brewers",
+                    ",",
+                    "comedian",
+                    ","
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "American",
+                    "former",
+                    "Major",
+                    "League",
+                    "Baseball",
+                    "player",
+                    ",",
+                    "later",
+                    "a",
+                    "sportscaster",
+                    "for",
+                    "the",
+                    "Milwaukee",
+                    "Brewers",
+                    ",",
+                    "comedian",
+                    ","
                 ]
             ]
         },
@@ -4648,6 +8450,62 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "now",
+                    "a",
+                    "refuge",
+                    "for",
+                    "another",
+                    "squadron",
+                    "mate",
+                    "who",
+                    "got",
+                    "away",
+                    "and",
+                    "had",
+                    "successfully",
+                    "figured",
+                    "out",
+                    "a",
+                    "way",
+                    "to",
+                    "escape",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "now",
+                    "a",
+                    "refuge",
+                    "for",
+                    "another",
+                    "squadron",
+                    "mate",
+                    "who",
+                    "got",
+                    "away",
+                    "and",
+                    "had",
+                    "successfully",
+                    "figured",
+                    "out",
+                    "a",
+                    "way",
+                    "to",
+                    "escape",
+                    "the"
+                ]
             ]
         },
         {
@@ -4709,6 +8567,57 @@
                         0.941747572815534,
                         0.8518518518518519
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    0.5929835221973796,
+                    0.8108108108108109
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "considered",
+                    "one",
+                    "of",
+                    "the",
+                    "\"big",
+                    "three\"",
+                    "English",
+                    "car",
+                    "engineers,",
+                    "the",
+                    "others",
+                    "being",
+                    "Harry",
+                    "Ricardo",
+                    "and",
+                    "Henry",
+                    "Roy"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "considered",
+                    "one",
+                    "of",
+                    "the",
+                    "'big",
+                    "three'",
+                    "English",
+                    "car",
+                    "engineers",
+                    ",",
+                    "the",
+                    "others",
+                    "being",
+                    "Harry",
+                    "Ricardo",
+                    "and",
+                    "Henry",
+                    "Roy"
                 ]
             ]
         },
@@ -4772,6 +8681,60 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "barred",
+                    "from",
+                    "serving",
+                    "as",
+                    "members",
+                    "of",
+                    "the",
+                    "Universal",
+                    "House",
+                    "of",
+                    "Justice",
+                    ",",
+                    "the",
+                    "supreme",
+                    "governing",
+                    "institution",
+                    "of",
+                    "the",
+                    "Bah\u00e1"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "barred",
+                    "from",
+                    "serving",
+                    "as",
+                    "members",
+                    "of",
+                    "the",
+                    "Universal",
+                    "House",
+                    "of",
+                    "Justice",
+                    ",",
+                    "the",
+                    "supreme",
+                    "governing",
+                    "institution",
+                    "of",
+                    "the",
+                    "Bah\u00e1"
+                ]
             ]
         },
         {
@@ -4833,6 +8796,52 @@
                         0.8181818181818182,
                         0.8867924528301887
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "set",
+                    "to",
+                    "star",
+                    "as",
+                    "Don",
+                    "Lockwood",
+                    "in",
+                    "the",
+                    "upcoming",
+                    "2017",
+                    "Broadway",
+                    "production",
+                    "of",
+                    "''",
+                    "Sing"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "set",
+                    "to",
+                    "star",
+                    "as",
+                    "Don",
+                    "Lockwood",
+                    "in",
+                    "the",
+                    "upcoming",
+                    "2017",
+                    "Broadway",
+                    "production",
+                    "of",
+                    "''",
+                    "Sing"
                 ]
             ]
         },
@@ -4896,6 +8905,56 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "regarded",
+                    "in",
+                    "the",
+                    "industry",
+                    "as",
+                    "one",
+                    "of",
+                    "the",
+                    "very",
+                    "few",
+                    "'rock'",
+                    "pianists",
+                    "capable",
+                    "of",
+                    "performing",
+                    "extended",
+                    "piano"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "regarded",
+                    "in",
+                    "the",
+                    "industry",
+                    "as",
+                    "one",
+                    "of",
+                    "the",
+                    "very",
+                    "few",
+                    "'rock'",
+                    "pianists",
+                    "capable",
+                    "of",
+                    "performing",
+                    "extended",
+                    "piano"
+                ]
             ]
         },
         {
@@ -4957,6 +9016,62 @@
                         0.8867924528301887,
                         0.941747572815534
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Faculty",
+                    "Member",
+                    ",",
+                    "Harvard",
+                    "Center",
+                    "for",
+                    "Population",
+                    "and",
+                    "Development",
+                    "Studies",
+                    ",",
+                    "and",
+                    "serves",
+                    "as",
+                    "commissioner",
+                    "on",
+                    "the",
+                    "Massachusetts",
+                    "Health"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Faculty",
+                    "Member",
+                    ",",
+                    "Harvard",
+                    "Center",
+                    "for",
+                    "Population",
+                    "and",
+                    "Development",
+                    "Studies",
+                    ",",
+                    "and",
+                    "serves",
+                    "as",
+                    "commissioner",
+                    "on",
+                    "the",
+                    "Massachusetts",
+                    "Health"
                 ]
             ]
         },
@@ -5020,6 +9135,60 @@
                         0.941747572815534
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "required",
+                    "that",
+                    "any",
+                    "credit",
+                    "balances",
+                    "that",
+                    "existed",
+                    "would",
+                    "be",
+                    "paid",
+                    "to",
+                    "the",
+                    "family",
+                    "members",
+                    "of",
+                    "Jews",
+                    "who",
+                    "had",
+                    "perished"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "required",
+                    "that",
+                    "any",
+                    "credit",
+                    "balances",
+                    "that",
+                    "existed",
+                    "would",
+                    "be",
+                    "paid",
+                    "to",
+                    "the",
+                    "family",
+                    "members",
+                    "of",
+                    "Jews",
+                    "who",
+                    "had",
+                    "perished"
+                ]
             ]
         },
         {
@@ -5081,6 +9250,58 @@
                         0.9230769230769231,
                         0.9047619047619048
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "most",
+                    "important",
+                    "temple",
+                    "of",
+                    "Agama",
+                    "Hindu",
+                    "Dharma",
+                    "in",
+                    "Bali",
+                    ",",
+                    "Indonesia",
+                    "and",
+                    "one",
+                    "of",
+                    "a",
+                    "series",
+                    "of"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "most",
+                    "important",
+                    "temple",
+                    "of",
+                    "Agama",
+                    "Hindu",
+                    "Dharma",
+                    "in",
+                    "Bali",
+                    ",",
+                    "Indonesia",
+                    "and",
+                    "one",
+                    "of",
+                    "a",
+                    "series",
+                    "of"
                 ]
             ]
         },
@@ -5144,6 +9365,62 @@
                         0.7699115044247787
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "line",
+                    "officers",
+                    ",",
+                    "trained",
+                    "to",
+                    "command",
+                    "combat",
+                    "units",
+                    ",",
+                    "although",
+                    "Marine",
+                    "officers",
+                    "cannot",
+                    "command",
+                    "ships",
+                    "or",
+                    "shore",
+                    "organizations",
+                    "of",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "line",
+                    "officers",
+                    ",",
+                    "trained",
+                    "to",
+                    "command",
+                    "combat",
+                    "units",
+                    ",",
+                    "although",
+                    "Marine",
+                    "officers",
+                    "cannot",
+                    "command",
+                    "ships",
+                    "or",
+                    "shore",
+                    "organizations",
+                    "of",
+                    "the"
+                ]
             ]
         },
         {
@@ -5205,6 +9482,58 @@
                         0.9801980198019802,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "co-host",
+                    "of",
+                    "ESPN",
+                    "Radio's",
+                    "''",
+                    "Mike",
+                    "and",
+                    "Mike",
+                    "in",
+                    "the",
+                    "Morning",
+                    "''",
+                    "and",
+                    "a",
+                    "former",
+                    "defensive",
+                    "lineman"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "co-host",
+                    "of",
+                    "ESPN",
+                    "Radio's",
+                    "''",
+                    "Mike",
+                    "and",
+                    "Mike",
+                    "in",
+                    "the",
+                    "Morning",
+                    "''",
+                    "and",
+                    "a",
+                    "former",
+                    "defensive",
+                    "lineman"
                 ]
             ]
         },
@@ -5268,6 +9597,58 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "centuries-long",
+                    "process",
+                    "''",
+                    "and",
+                    "that",
+                    "Russia",
+                    "was",
+                    "at",
+                    "a",
+                    "pivotal",
+                    "moment",
+                    "in",
+                    "its",
+                    "history",
+                    "toward",
+                    "pacifying",
+                    "the"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "centuries-long",
+                    "process",
+                    "''",
+                    "and",
+                    "that",
+                    "Russia",
+                    "was",
+                    "at",
+                    "a",
+                    "pivotal",
+                    "moment",
+                    "in",
+                    "its",
+                    "history",
+                    "toward",
+                    "pacifying",
+                    "the"
+                ]
             ]
         },
         {
@@ -5329,6 +9710,50 @@
                         0.8867924528301887,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "4.5",
+                    "mile",
+                    "/",
+                    "7.2",
+                    "km",
+                    "-",
+                    "long",
+                    "road",
+                    "--",
+                    "part",
+                    "paved",
+                    ",",
+                    "part"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "4.5",
+                    "mile",
+                    "/",
+                    "7.2",
+                    "km",
+                    "-",
+                    "long",
+                    "road",
+                    "--",
+                    "part",
+                    "paved",
+                    ",",
+                    "part"
                 ]
             ]
         },
@@ -5392,6 +9817,60 @@
                         0.9230769230769231
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "organised",
+                    "and",
+                    "united",
+                    "with",
+                    "an",
+                    "advanced",
+                    "communist",
+                    "understanding",
+                    "of",
+                    "the",
+                    "nature",
+                    "of",
+                    "their",
+                    "oppressors",
+                    "and",
+                    "the",
+                    "means",
+                    "of",
+                    "their"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "organised",
+                    "and",
+                    "united",
+                    "with",
+                    "an",
+                    "advanced",
+                    "communist",
+                    "understanding",
+                    "of",
+                    "the",
+                    "nature",
+                    "of",
+                    "their",
+                    "oppressors",
+                    "and",
+                    "the",
+                    "means",
+                    "of",
+                    "their"
+                ]
             ]
         },
         {
@@ -5453,6 +9932,62 @@
                         0.9801980198019802,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "in",
+                    "the",
+                    "field",
+                    "of",
+                    "satellite",
+                    "communications",
+                    ",",
+                    "and",
+                    "the",
+                    "manufacturer",
+                    "generated",
+                    "several",
+                    "hundred",
+                    "patents",
+                    "protecting",
+                    "the",
+                    "technology",
+                    "in",
+                    "the",
+                    "system"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "in",
+                    "the",
+                    "field",
+                    "of",
+                    "satellite",
+                    "communications",
+                    ",",
+                    "and",
+                    "the",
+                    "manufacturer",
+                    "generated",
+                    "several",
+                    "hundred",
+                    "patents",
+                    "protecting",
+                    "the",
+                    "technology",
+                    "in",
+                    "the",
+                    "system"
                 ]
             ]
         },
@@ -5516,6 +10051,60 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "imprisoned",
+                    "for",
+                    "a",
+                    "terrorism",
+                    "-",
+                    "related",
+                    "crime",
+                    ",",
+                    "which",
+                    "has",
+                    "led",
+                    "to",
+                    "calls",
+                    "to",
+                    "curtail",
+                    "UK",
+                    "foreign",
+                    "aid",
+                    "to"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "imprisoned",
+                    "for",
+                    "a",
+                    "terrorism",
+                    "-",
+                    "related",
+                    "crime",
+                    ",",
+                    "which",
+                    "has",
+                    "led",
+                    "to",
+                    "calls",
+                    "to",
+                    "curtail",
+                    "UK",
+                    "foreign",
+                    "aid",
+                    "to"
+                ]
             ]
         },
         {
@@ -5577,6 +10166,62 @@
                         0.9230769230769231,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "American",
+                    "actor",
+                    ",",
+                    "best",
+                    "known",
+                    "for",
+                    "his",
+                    "role",
+                    "as",
+                    "Cliff",
+                    "Barnes",
+                    "on",
+                    "the",
+                    "nighttime",
+                    "soap",
+                    "opera",
+                    "''",
+                    "Dallas",
+                    "''"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "American",
+                    "actor",
+                    ",",
+                    "best",
+                    "known",
+                    "for",
+                    "his",
+                    "role",
+                    "as",
+                    "Cliff",
+                    "Barnes",
+                    "on",
+                    "the",
+                    "nighttime",
+                    "soap",
+                    "opera",
+                    "''",
+                    "Dallas",
+                    "''"
                 ]
             ]
         },
@@ -5640,6 +10285,62 @@
                         0.9801980198019802
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "doing",
+                    "in",
+                    "bed",
+                    "or",
+                    "how",
+                    "to",
+                    "satisfy",
+                    "a",
+                    "man",
+                    "who",
+                    "is",
+                    "doing",
+                    "all",
+                    "the",
+                    "work",
+                    ",",
+                    "slated",
+                    "for",
+                    "release",
+                    "by"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "doing",
+                    "in",
+                    "bed",
+                    "or",
+                    "how",
+                    "to",
+                    "satisfy",
+                    "a",
+                    "man",
+                    "who",
+                    "is",
+                    "doing",
+                    "all",
+                    "the",
+                    "work",
+                    ",",
+                    "slated",
+                    "for",
+                    "release",
+                    "by"
+                ]
             ]
         },
         {
@@ -5701,6 +10402,58 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "an",
+                    "undiscovered",
+                    "planet",
+                    "beyond",
+                    "Neptune",
+                    "that",
+                    "follows",
+                    "a",
+                    "long",
+                    ",",
+                    "elliptical",
+                    "orbit",
+                    ",",
+                    "reaching",
+                    "the",
+                    "inner",
+                    "solar",
+                    "system"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "an",
+                    "undiscovered",
+                    "planet",
+                    "beyond",
+                    "Neptune",
+                    "that",
+                    "follows",
+                    "a",
+                    "long",
+                    ",",
+                    "elliptical",
+                    "orbit",
+                    ",",
+                    "reaching",
+                    "the",
+                    "inner",
+                    "solar",
+                    "system"
                 ]
             ]
         },
@@ -5764,6 +10517,62 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "just",
+                    "as",
+                    "perfect",
+                    "for",
+                    "the",
+                    "role",
+                    "as",
+                    "James",
+                    "Earl",
+                    "Jones",
+                    "was",
+                    "in",
+                    "portraying",
+                    "Darth",
+                    "Vader",
+                    "in",
+                    "''",
+                    "Star",
+                    "Wars",
+                    "''"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "just",
+                    "as",
+                    "perfect",
+                    "for",
+                    "the",
+                    "role",
+                    "as",
+                    "James",
+                    "Earl",
+                    "Jones",
+                    "was",
+                    "in",
+                    "portraying",
+                    "Darth",
+                    "Vader",
+                    "in",
+                    "''",
+                    "Star",
+                    "Wars",
+                    "''"
+                ]
             ]
         },
         {
@@ -5825,6 +10634,62 @@
                         0.9230769230769231,
                         0.9607843137254902
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "nonprofit",
+                    "organization",
+                    "focused",
+                    "on",
+                    "preserving",
+                    "and",
+                    "promoting",
+                    "rare",
+                    "breeds",
+                    ",",
+                    "also",
+                    "known",
+                    "as",
+                    "''",
+                    "heritage",
+                    "breeds",
+                    "''",
+                    "of",
+                    "livestock"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "nonprofit",
+                    "organization",
+                    "focused",
+                    "on",
+                    "preserving",
+                    "and",
+                    "promoting",
+                    "rare",
+                    "breeds",
+                    ",",
+                    "also",
+                    "known",
+                    "as",
+                    "''",
+                    "heritage",
+                    "breeds",
+                    "''",
+                    "of",
+                    "livestock"
                 ]
             ]
         },
@@ -5888,6 +10753,60 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "offered",
+                    "a",
+                    "job",
+                    "installing",
+                    "drywall",
+                    "from",
+                    "his",
+                    "blue",
+                    "-",
+                    "collar",
+                    "working",
+                    "brother",
+                    "-",
+                    "in",
+                    "-",
+                    "law",
+                    ",",
+                    "played",
+                    "by"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "offered",
+                    "a",
+                    "job",
+                    "installing",
+                    "drywall",
+                    "from",
+                    "his",
+                    "blue",
+                    "-",
+                    "collar",
+                    "working",
+                    "brother",
+                    "-",
+                    "in",
+                    "-",
+                    "law",
+                    ",",
+                    "played",
+                    "by"
+                ]
             ]
         },
         {
@@ -5949,6 +10868,62 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "most",
+                    "noted",
+                    "as",
+                    "having",
+                    "initially",
+                    "supported",
+                    "the",
+                    "trials",
+                    ",",
+                    "and",
+                    "then",
+                    "changing",
+                    "his",
+                    "mind",
+                    ",",
+                    "publishing",
+                    "a",
+                    "critique",
+                    "of",
+                    "them"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "most",
+                    "noted",
+                    "as",
+                    "having",
+                    "initially",
+                    "supported",
+                    "the",
+                    "trials",
+                    ",",
+                    "and",
+                    "then",
+                    "changing",
+                    "his",
+                    "mind",
+                    ",",
+                    "publishing",
+                    "a",
+                    "critique",
+                    "of",
+                    "them"
                 ]
             ]
         },
@@ -6012,6 +10987,58 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "are",
+                    "used",
+                    "to",
+                    "represent",
+                    "a",
+                    "business",
+                    "process",
+                    ",",
+                    "to",
+                    "run",
+                    "a",
+                    "simulation",
+                    "of",
+                    "the",
+                    "process",
+                    "and",
+                    "for",
+                    "communication",
+                    "purposes.<|endoftext|>"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "are",
+                    "used",
+                    "to",
+                    "represent",
+                    "a",
+                    "business",
+                    "process",
+                    ",",
+                    "to",
+                    "run",
+                    "a",
+                    "simulation",
+                    "of",
+                    "the",
+                    "process",
+                    "and",
+                    "for",
+                    "communication",
+                    "purposes.<|endoftext|>"
+                ]
             ]
         },
         {
@@ -6073,6 +11100,50 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "the",
+                    "Right",
+                    "Reverend",
+                    "Dr",
+                    "John",
+                    "Sentamu,",
+                    "the",
+                    "8th",
+                    "Lord",
+                    "Bishop",
+                    "of",
+                    "Birmingham,",
+                    "who",
+                    "signs"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "the",
+                    "Right",
+                    "Reverend",
+                    "Dr",
+                    "John",
+                    "Sentamu,",
+                    "the",
+                    "8th",
+                    "Lord",
+                    "Bishop",
+                    "of",
+                    "Birmingham,",
+                    "who",
+                    "signs"
                 ]
             ]
         },
@@ -6136,6 +11207,62 @@
                         0.9607843137254902
                     ]
                 ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "claimed",
+                    "to",
+                    "be",
+                    "important",
+                    "to",
+                    "dry",
+                    "their",
+                    "body",
+                    "immediately",
+                    "afterwards",
+                    "with",
+                    "a",
+                    "clean",
+                    "towel",
+                    "and",
+                    "their",
+                    "hair",
+                    "properly",
+                    "using",
+                    "a"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "claimed",
+                    "to",
+                    "be",
+                    "important",
+                    "to",
+                    "dry",
+                    "their",
+                    "body",
+                    "immediately",
+                    "afterwards",
+                    "with",
+                    "a",
+                    "clean",
+                    "towel",
+                    "and",
+                    "their",
+                    "hair",
+                    "properly",
+                    "using",
+                    "a"
+                ]
             ]
         },
         {
@@ -6197,6 +11324,62 @@
                         0.9607843137254902,
                         0.9801980198019802
                     ]
+                ]
+            ],
+            "bleu_rougel": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ],
+            "og_generated": [
+                [
+                    "is",
+                    "a",
+                    "Hong",
+                    "Kong",
+                    "actor",
+                    "and",
+                    "television",
+                    "host",
+                    "for",
+                    "the",
+                    "Hong",
+                    "Kong",
+                    "-",
+                    "based",
+                    "ATV",
+                    "channel",
+                    "(",
+                    "previously",
+                    "working",
+                    "for",
+                    "TV"
+                ]
+            ],
+            "pt_generated": [
+                [
+                    "is",
+                    "a",
+                    "Hong",
+                    "Kong",
+                    "actor",
+                    "and",
+                    "television",
+                    "host",
+                    "for",
+                    "the",
+                    "Hong",
+                    "Kong",
+                    "-",
+                    "based",
+                    "ATV",
+                    "channel",
+                    "(",
+                    "previously",
+                    "working",
+                    "for",
+                    "TV"
                 ]
             ]
         }
