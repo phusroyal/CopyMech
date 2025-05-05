@@ -257,7 +257,7 @@ def plot_score_heatmaps(inputs, score_types=['acc2']):
         # For y-axis, since we flipped the matrix, label from num_layers down to 1.
         sns.heatmap(matrix_flipped,
                     ax=ax,
-                    vmin=0, vmax=1,
+                    vmin=0.4, vmax=1,
                     cmap='RdYlGn',
                     annot=True,
                     # fmt=".2f",

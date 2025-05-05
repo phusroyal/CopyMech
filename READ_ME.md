@@ -1,4 +1,4 @@
-# Explaining In-Context Learning via Information
+# Patch-Copying Repeated Tokens for Efficient Generation
 
 ## 1. Setup
 1. Create conda environment:
@@ -18,8 +18,15 @@ conda install jupyter
 conda install -n copy_mech ipykernel --update-deps --force-reinstall
 ```
 
+## Experiments
 
-## model architect
+1. Get `wiki_atomic_edits` data by running `utils/wiki_loader.py`
+
+2. Running Schemas
+- Copy mode: `copy_mode.py`
+- Turning points: `turning_points.py`
+- Continuation generation: `continous_generating.py`
+
 
 
 
