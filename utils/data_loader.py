@@ -1,10 +1,11 @@
-from datasets import load_from_disk
+from datasets import load_from_disk, load_dataset
 from tqdm import tqdm
 import random, re
 
 def wiki_loader(num_samples = 1000000):
     # Load the dataset from disk
-    subset = load_from_disk("/home/longnhat/workspace_phu/CopyMech/english_insertions")
+    subset = load_dataset("google-research-datasets/wiki_atomic_edits", 'english_insertions', 
+          cache_dir='./datasets/')
 
     base_sents = subset['train']['base_sentence'][:num_samples]
     phrases = subset['train']['phrase'][:num_samples]
