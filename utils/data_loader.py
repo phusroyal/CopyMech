@@ -93,7 +93,9 @@ def modify_token(token: str, method: str = None, seed = 555) -> str:
     if method == "swap":
         random.seed(seed)
         tokens = list(token)
-        i, j = random.sample(range(1,len(tokens)), 2) # 1 for cases with space in the beginning
+        if len(tokens) < 3:
+            return None
+        i, j = random.sample(range(1, len(tokens)), 2) # 1 for cases with space in the beginning
         tokens[i], tokens[j] = tokens[j], tokens[i]
         return ''.join(tokens)
     elif method == "drop":
@@ -133,6 +135,23 @@ def get_outputs_modify(orig_tokens, target_token, idx_target, method: str = None
     return corrupted_sentence, decoded_up_to, target_token
     
 class Scheme():
+    """
+    A class for performing text modifications using different schemes.
+    This class provides methods to manipulate text through word swapping, word dropping,
+    and character-level editing operations. It's designed to work with template-based
+    text transformations and tokenization models.
+    Attributes:
+        source (str): The source text or pattern to be modified or searched for.
+        target (str): The target text or pattern to replace the source with.
+    Methods:
+        swap_words(text): Swaps words in the text based on source and target patterns.
+        drop_words(text): Drops specific words from the text and replaces them.
+        char_edit(text, model, needed_len, target_id): Performs character-level editing
+            operations (swap, drop, add) on tokenized text at a specific position.
+    Example:
+        scheme = Scheme(source="old_word", target="new_word")
+        result = scheme.swap_words("This is old_word in text")
+    """
     def __init__(self, source='', target=''):
         self.source = source
         self.target = target
@@ -186,16 +205,3 @@ class Scheme():
             return_outputs_dict[method] = output
 
         return return_outputs_dict
-
-# # Example usage:
-# orig_tokens = ['i', 'have', 'a', 'chic', 'ken']
-# target_token = 'ken'
-
-# # Try each method:
-# for method in ["swap", "drop", "add"]:
-#     decoded, corrupted, gt_next = corrupt_and_compare_tokens(orig_tokens, target_token, method=method)
-#     print(f"Method: {method}")
-#     print("Decoded up to mismatch:", decoded)
-#     print("Corrupted sentence:", corrupted)
-#     print("Next ground truth token:", gt_next)
-#     print("-" * 50)
