@@ -10,6 +10,7 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 
 def save_dict_to_json(data, filename):
     """Saves a dictionary to a JSON file."""
+    os.makedirs(os.path.dirname(filename), exist_ok=True)  # Ensure directory exists
     with open(filename, "w") as f:
         json.dump(data, f, indent=4)
 

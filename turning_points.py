@@ -11,7 +11,10 @@ torch.set_grad_enabled(False)
 misc.seed_everything(555)
 
 # load model and tokenizer
-model = HookedTransformer.from_pretrained("Qwen/Qwen2.5-3B")
+model_cache = '/home/anwoy/phuhoang/models/'
+model_name = "meta-llama/Llama-3.2-3B"  # or "Qwen/Qwen2.5-3B"
+model = HookedTransformer.from_pretrained("meta-llama/Llama-3.2-3B", cache_dir=model_cache, device_map='auto')
+
 num_layers = model.cfg.n_layers
 
 _, _, edited_phrases = data_loader.wiki_loader(num_samples=2000000)
@@ -33,10 +36,9 @@ info_lst = defaultdict(list)
 for schema_name, schema in schemas.items():
     print(schema_name)
     for skip in tqdm(range(num_layers-1)):
-        skip += 1
         if schema_name == 'char_edit':
             outputs = n_grams_tp.ngram_char_edits(model= model,
-                                            skip_up_to= skip,
+                                            skip_up_to= skip+1,
                                             edited_phrases= edited_phrases,
                                             schema= schema)
         else:
@@ -46,4 +48,4 @@ for schema_name, schema in schemas.items():
                             schema= schema)
         info_lst[schema_name].append(outputs)
 
-    misc.save_dict_to_json(info_lst[schema_name], f"output/{task_name}_{schema_name}.json")
+    misc.save_dict_to_json(info_lst[schema_name], f"output/{model_name}/{task_name}/{task_name}_{schema_name}.json")

@@ -11,7 +11,10 @@ torch.set_grad_enabled(False)
 misc.seed_everything(555)
 
 # load model and tokenizer
-model = HookedTransformer.from_pretrained("Qwen/Qwen2.5-3B")
+model_cache = '/home/anwoy/phuhoang/models/'
+model_name = "meta-llama/Llama-3.2-3B"  # or "Qwen/Qwen2.5-3B"
+model = HookedTransformer.from_pretrained("meta-llama/Llama-3.2-3B", cache_dir=model_cache, device_map='auto')
+
 num_layers = model.cfg.n_layers
 
 _, _, edited_phrases = data_loader.wiki_loader(num_samples=2000000)

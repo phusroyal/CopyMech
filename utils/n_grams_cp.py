@@ -7,7 +7,7 @@ from transformer_lens.hook_points import HookPoint
 
 from .misc import get_top_k, get_acc, detect_ngram_copy
 
-def ngram_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100):
+def ngram_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100, solvable_limit=100):
     """
     Run copy mode schema for a given model and edited phrases.
 
@@ -27,7 +27,7 @@ def ngram_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     return_scores = []
 
     for edited in edited_phrases:
-        if total_solvable_og == 100:
+        if total_solvable_og == solvable_limit:
             break
         outputs = schema(edited)
         if not outputs:
@@ -126,10 +126,12 @@ def ngram_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100):
         # If patching was successful, append the scores to the return list
         if patching_succeed_flag:
             return_scores.append(score_list_dict)
+    
+    print(f"Total solvable examples: {total_solvable_og}")
     return return_scores
 
 
-def ngram_char_edits_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100):
+def ngram_char_edits_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100, solvable_limit=33):
     """
     Run copy mode schema for a given model and edited phrases with character-level edits.
     
@@ -151,9 +153,9 @@ def ngram_char_edits_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     for edited in edited_phrases:
         # Stop if we have enough examples for all three edit types
         if all([
-            total_solvable_dict['swap'] == 33,
-            total_solvable_dict['drop'] == 33,
-            total_solvable_dict['add'] == 34
+            total_solvable_dict['swap'] == solvable_limit,
+            total_solvable_dict['drop'] == solvable_limit,
+            total_solvable_dict['add'] == solvable_limit+1, 
         ]):
             break
         return_outputs = schema(text=edited, model=model)
@@ -257,4 +259,6 @@ def ngram_char_edits_cp(model, skip_up_to, edited_phrases, schema, n=5, k=100):
             # If patching was successful, append the scores to the return list
             if patching_succeed_flag:
                 return_scores.append(score_list_dict)
+    
+    print(f"Total solvable examples: {total_solvable_dict}")
     return return_scores

@@ -27,6 +27,3 @@ conda install -n copy_mech ipykernel --update-deps --force-reinstall
 - Turning points: `turning_points.py`
 - Continuation generation: `continous_generating.py`
 
-
-
-
