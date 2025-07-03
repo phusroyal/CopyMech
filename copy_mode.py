@@ -12,16 +12,16 @@ except ImportError:
     print("No access token loaded.")
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"]="3"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 torch.set_grad_enabled(False)
 misc.seed_everything(555)
 
 # load model and tokenizer
-model = HookedTransformer.from_pretrained("meta-llama/Llama-3.2-3B", cache_dir='./hub/', device_map='auto')
-# model = HookedTransformer.from_pretrained("Qwen/Qwen2.5-3B", cache_dir='./hub/', device_map='auto')
+# model = HookedTransformer.from_pretrained("bigscience/bloom-3b", cache_dir='./hub/', device='cuda')
+model = HookedTransformer.from_pretrained("Qwen/Qwen2.5-3B", cache_dir='./hub/', device_map='auto')
 num_layers = model.cfg.n_layers
-_, _, edited_phrases = data_loader.wiki_loader(num_samples=200)
+_, _, edited_phrases = data_loader.wiki_loader(num_samples=2000000)
 
 schemas = {
     'swap_is_are': data_loader.Scheme(source= 'is',
@@ -53,4 +53,4 @@ for schema_name, schema in schemas.items():
                             schema= schema)
         info_lst[schema_name].append(outputs)
 
-    misc.save_dict_to_json(info_lst[schema_name], f"output/re_{task_name}_{schema_name}.json")
+    misc.save_dict_to_json(info_lst[schema_name], f"output/qwen-3b_{task_name}_{schema_name}.json")

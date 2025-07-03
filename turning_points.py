@@ -3,15 +3,22 @@ from utils import data_loader, misc, n_grams_tp
 from collections import defaultdict
 from tqdm import tqdm
 from transformer_lens import HookedTransformer
+try:
+    from access_token import access_token
+    os.environ["HF_TOKEN"] = access_token
+
+except ImportError:
+    print("No access token loaded.")
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
+os.environ["CUDA_VISIBLE_DEVICES"]="2"
 
 torch.set_grad_enabled(False)
 misc.seed_everything(555)
 
 # load model and tokenizer
-model = HookedTransformer.from_pretrained("Qwen/Qwen2.5-3B")
+# model = HookedTransformer.from_pretrained("bigscience/bloom-3b", cache_dir='./hub/', device='cuda')
+model = HookedTransformer.from_pretrained("Qwen/Qwen2.5-3B", cache_dir='./hub/', device_map='auto')
 num_layers = model.cfg.n_layers
 
 _, _, edited_phrases = data_loader.wiki_loader(num_samples=2000000)
@@ -46,4 +53,4 @@ for schema_name, schema in schemas.items():
                             schema= schema)
         info_lst[schema_name].append(outputs)
 
-    misc.save_dict_to_json(info_lst[schema_name], f"output/{task_name}_{schema_name}.json")
+    misc.save_dict_to_json(info_lst[schema_name], f"output/qwen-3b_{task_name}_{schema_name}.json")
