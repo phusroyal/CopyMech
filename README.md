@@ -7,7 +7,7 @@
 conda create -n copy_mech python=3.10
 ```
 
-2. Install requirements to conda:
+2. Install requirements to conda ():
 ```bash
 conda install --file requirements.txt
 ```
@@ -26,4 +26,3 @@ conda install -n copy_mech ipykernel --update-deps --force-reinstall
 - Copy mode: `copy_mode.py`
 - Turning points: `turning_points.py`
 - Continuation generation: `continous_generating.py`
-
