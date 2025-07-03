@@ -29,6 +29,7 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     total_patched_words = 20
     total_solvable_og = 0
     return_scores = []
+    solvable_cases = []
 
     for edited in edited_phrases:
         if total_solvable_og == 100:
@@ -120,8 +121,15 @@ def ngram(model, skip_up_to, edited_phrases, schema, n=5, k=100):
 
         if patching_succeed_flag:
             return_scores.append(score_list_dict)
+            solvable_cases.append({
+                'corrupted_text': corrupted_text,
+                'pre_isare': pre_isare,
+                'correct_tobe': correct_tobe,
+                'source': source,
+                'target': target,
+            })
 
-    return return_scores
+    return return_scores, solvable_cases
 
 def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
     """
@@ -139,6 +147,7 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
         List[Dict]: Each dict contains accuracy and Jaccard metrics for an input.
     """
     return_scores = []
+    solvable_cases = []
     total_patched_words = 20
     total_solvable_dict = {'swap': 0, 'drop': 0, 'add': 0}
 
@@ -240,5 +249,11 @@ def ngram_char_edits(model, skip_up_to, edited_phrases, schema, n=5, k=100):
             # If patching was successful, store the scores
             if patching_succeed_flag:
                 return_scores.append(score_list_dict)
+                solvable_cases.append({
+                    'corrupted_sentence': corrupted_sentence,
+                    'decoded_up_to': decoded_up_to,
+                    'ground_truth_next': ground_truth_next,
+                    'method': method
+                })
 
-    return return_scores
+    return return_scores, solvable_cases

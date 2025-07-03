@@ -33,7 +33,7 @@ def load_json_files(folder_path):
     """
     data_list = []
     for file_name in os.listdir(folder_path):
-        if file_name.endswith(".json"):
+        if file_name.endswith(".json") and not file_name.endswith("_solved.json"):
             file_path = os.path.join(folder_path, file_name)
             with open(file_path, 'r') as json_file:
                 data = json.load(json_file)
@@ -335,7 +335,7 @@ def get_mat(data_lst, score_types, num_items, num_layers):
     return matrices
 
 
-def plot_score_heatmaps(inputs, score_types=['acc2']):
+def plot_score_heatmaps(inputs, score_types=['acc2'], schema='copy_mode'):
     """
     Generate heatmaps showing score distributions across layers and items.
     
@@ -382,7 +382,7 @@ def plot_score_heatmaps(inputs, score_types=['acc2']):
                     xticklabels=[f"{i+1}" for i in range(num_items)],
                     yticklabels=[f"{i}" for i in range(num_layers, 0, -1)]
                    )
-        ax.set_title(title_dict[score])
+        ax.set_title(title_dict[score]+f' ({schema})')
     
     plt.tight_layout()
     plt.show()

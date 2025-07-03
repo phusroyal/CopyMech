@@ -1,0 +1,1568 @@
+[
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ],
+    [
+        {
+            "corrupted_text": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all a battle scenes ) , editor Dharamavir , makeup artists P. G. Joshi and Abdul Hamid , and sound director Akram Shaikh .",
+            "pre_isare": "Additional crew members included cinematographer R. D. Mathur , choreographer Lachhu Maharaj , production manager Aslam Noori , camera man Mohammed Ayub ( who shot all",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in a United States , and third highest for economic diversity as measured by low - income students receiving federal Pell Grants .",
+            "pre_isare": "In its 2014 edition of '' America 's Best Colleges '' , '' U.S. News & World Report '' ranked Grinnell 17th among all liberal arts colleges in",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from a floor ; he also scored in double figures in 24 of 32 games played and posted 19 points three times .",
+            "pre_isare": "At Syracuse , Grant averaged 12.1 points , 6.8 rebounds and 1.4 assists in 31.4 minutes per game in 2013 -- 14 while shooting 49.6 % from",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become the part of its first - team setup , going on to represent other clubs in his country , namely Sevilla .",
+            "pre_isare": "Nicknamed '' La fiera de Vallecas '' ( The beast of Vallecas ) , his early career was associated with Real Madrid , although he could never become",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as the Music Education major from 1990 - 1993 and was inducted into Sigma Alpha Iota music fraternity , Epsilon Omega chapter .",
+            "pre_isare": "After graduating from Raytown High School in Raytown , Missouri in 1990 , she first attended The University of Central Missouri in Warrensburg , Missouri as",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after a death of his second wife Audrey ( n\u00e9e Adamson ) , to whom he had been married for fifty - three years .",
+            "pre_isare": "Sinclair took his own life by an overdose of barbiturate on 28 June 1995 at his home Southwoods Hall , near Thirsk , two weeks after",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 ) the literary agent of Spanish - language authors from Spain and Latin America , including six Nobel Prize -- winning authors .",
+            "pre_isare": "Carmen Balcells Segala ( Santa Fe de Segarra , Les Oluges , Lleida , Catalonia , Spain , August 9 , 1930 September 21 2015 )",
+            "correct_tobe": "a",
+            "source": "a",
+            "target": "the"
+        },
+        {
+            "corrupted_text": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of a most commonly used fonts on Microsoft Windows operating system and Office suite , for which they are intended as free substitutes .",
+            "pre_isare": "These fonts are metrically compatible with Monotype Corporation 's Arial , Arial Narrow , Times New Roman , and Courier New ( respectively ) , one of",
+            "correct_tobe": "the",
+            "source": "a",
+            "target": "the"
+        }
+    ]
+]
