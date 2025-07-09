@@ -13,6 +13,12 @@ def wiki_loader(num_samples = 1000000):
 
     return base_sents, phrases, edited_sents
 
+def cnndnn_loader():
+    # load data
+    data = load_dataset("cnn_dailymail", "3.0.0", split="test", cache_dir='./datasets/')
+
+    return data
+
 def template_searcher(seq: str, num_context = 26, num_post_word = 22,  source = 'is', target = 'are') -> bool:
     """
     Returns True if the sequence has an occurrence of 'is' or 'are'
