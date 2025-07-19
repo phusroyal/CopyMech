@@ -12,6 +12,8 @@ from .misc import (
     compute_rouge_l,
     detect_ngram_copy
 )
+
+
 def detect_extra_token(list1, list2):
     """
     Detect and remove a single extra token at the end of either list,

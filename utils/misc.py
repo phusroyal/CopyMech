@@ -51,6 +51,19 @@ def seed_everything(seed):
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
 
+def set_grad_enabled(enabled: bool=False):
+    """
+    Set the gradient computation mode for PyTorch.
+    
+    Args:
+        enabled (bool): If True, enables gradient computation; otherwise, disables it.
+    """
+    torch.set_grad_enabled(enabled)
+    if enabled:
+        print("Gradient computation is enabled.")
+    else:
+        print("Gradient computation is disabled.")
+
 
 def detect_ngram_copy(seq_ids: torch.Tensor, n=3, skip_up_to=43):
     """

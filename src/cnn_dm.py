@@ -6,7 +6,7 @@ import transformer_lens.utils as utils
 from transformer_lens.hook_points import HookPoint
 from tqdm import tqdm
 
-from .misc import (
+from ..utils.misc import (
     get_top_k,
     get_acc,
     compute_bleu,

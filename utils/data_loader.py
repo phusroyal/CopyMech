@@ -4,8 +4,9 @@ import random, re
 
 def wiki_loader(num_samples = 1000000):
     # Load the dataset from disk
-    subset = load_dataset("google-research-datasets/wiki_atomic_edits", 'english_insertions', 
-          cache_dir='./datasets/')
+    subset = load_dataset("google-research-datasets/wiki_atomic_edits", 
+                          'english_insertions', 
+                          cache_dir='./datasets/')
 
     base_sents = subset['train']['base_sentence'][:num_samples]
     phrases = subset['train']['phrase'][:num_samples]
@@ -16,7 +17,6 @@ def wiki_loader(num_samples = 1000000):
 def cnndnn_loader():
     # load data
     data = load_dataset("cnn_dailymail", "3.0.0", split="test", cache_dir='./datasets/')
-
     return data
 
 def template_searcher(seq: str, num_context = 26, num_post_word = 22,  source = 'is', target = 'are') -> bool:
